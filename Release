@@ -1,0 +1,8 @@
+Origin:                iZJ Private Repo
+Label: iZJ Private Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: iZJ Private Backup Jailbreak Plugin Source
