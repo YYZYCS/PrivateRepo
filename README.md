@@ -1,2 +1,2 @@
 # PrivateRepo
-This is iZJ PrivateBackup Jailbreak Plugin Source
+This is iZJ Private Backup Jailbreak Plugin Source
