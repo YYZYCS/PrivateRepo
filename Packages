@@ -988,22 +988,6 @@ Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: preferenceloader
-Version: 2.2.6-11+debug
-Architecture: iphoneos-arm64e
-Maintainer: ProcursusTeam <support@procurs.us>
-Installed-Size: 456
-Depends: mobilesubstrate
-Filename: ./debs/PreferenceLoader_2.2.6-11+debug_iphoneos-arm64e.deb
-Size: 26624
-MD5sum: 455013cc5df472bb3323c60bb1ca7c72
-SHA1: c66f38de21e75f3387f1a7e372335c8e2af0a3b4
-SHA256: d204fff4cadced1c640f71162dccc91778ac245b636733e9ad10478a60eefe29
-Section: System
-Description: load preferences in style
-Author: Dhinak G <dhinak@dhinak.net>
-Name: PreferenceLoader
-
 Package: roothide
 Version: 0.1.0
 Architecture: iphoneos-arm64e
