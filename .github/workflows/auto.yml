@@ -5,20 +5,33 @@ on:
     workflows: ["pages-build-deployment"]
     types: 
       - completed
+  # 允许通过快捷指令/API触发
+  repository_dispatch:
+    types: [reset-debs]
+  # 允许在 GitHub 网页手动点击触发
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # 修改条件：若是自动触发则检查上步状态，若是快捷指令/手动触发则直接运行
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout
-      # uses: actions/checkout@v4
         uses: actions/checkout@v5
         with:
           submodules: recursive
           token: ${{ secrets.PAT_TOKEN }}  # 确保与 GitHub Secrets 中的名称一致
         env:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+      # 【新增步骤】仅在快捷指令触发或网页手动触发时执行：清空 debs 并新建 README.md
+      - name: Clean Debs Directory
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
+        run: |
+          rm -rf ./debs
+          mkdir ./debs
+          echo "# Debs Repository" > ./debs/README.md
 
       - name: Install Dependencies
         if: success()
@@ -46,7 +59,7 @@ jobs:
         run: |
           git add .
           if ! git diff --staged --exit-code 1>>/dev/null; then
-            git commit -m 'Refresh Packages'
+            git commit -m 'Refresh Packages / Reset Debs'
           fi
 
       - name: Push Changes
