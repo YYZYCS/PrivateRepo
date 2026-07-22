@@ -119,23 +119,6 @@ Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
 Name: CocoaTop
 Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
 
-Package: com.0xkuj.filzadirprobe
-Version: 1.7.2
-Architecture: iphoneos-arm64e
-Maintainer: 0xkuj
-Installed-Size: 240
-Pre-Depends: rootless-compat (>= 0.9)
-Filename: ./debs/FilzaDirProbe_1.7.2_iphoneos-arm64e.deb
-Size: 71880
-MD5sum: 0f560bdd457ba7560f3b416d76ab8c71
-SHA1: 6562d7e0bdf748322c5b23a91ac0edd23b861d90
-SHA256: e4aa73a48bcf0b96cb2889d5e6ed50d5554c7f74d0855d6693a0eab6e6d33819
-Section: Filza
-Description: 计算Filza里文件夹大小。
-Author: 0xkuj
-Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
-Name: FilzaDirProbe
-
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Architecture: iphoneos-arm64e
@@ -315,27 +298,6 @@ Author: Jonathan Winger-lang
 Icon: https://huayuarc.github.io/icon/snapper.png
 Name: Snapper 3
 
-Package: com.korboy.filzaenhanced
-Version: 1.0.7.4
-Architecture: iphoneos-arm64e
-Maintainer: Korboy <korboybeats@gmail.com>
-Installed-Size: 109152
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Filename: ./debs/FilzaEnhanced-1.0.7.4-iphoneos-arm64e.deb
-Size: 24399506
-MD5sum: 7c42351cc520f87fcdb1213fa1e29fa7
-SHA1: 64817754a9b12a9fc5299b59e6333754869a1825
-SHA256: 00af8eb4ce853e38a63b6999f21aaac2de1a6810bf81bedc200dffeffa12b3b5
-Section: Tweaks
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Author: Korboy <korboybeats@gmail.com>
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Name: FilzaEnhanced
-Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Summary: All-in-One Filza Enhancements
-
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64e
@@ -423,23 +385,6 @@ Section: Tweaks
 Description: A modern crash reporter for iOS
 Author: Muirey03
 Name: Cr4shed
-
-Package: com.netskao.filzacrack
-Version: 1.1-9
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 120
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/Filza Crack-roothide_1.1-9_iphoneos-arm64e.deb
-Size: 28852
-MD5sum: 8bfd175b34f0e75db5f18921257d7581
-SHA1: debc1572d1d59bf2a30ec6136568a273b7ff2294
-SHA256: e0df3fbb4fec5b8ea1f489557727b4771f6a7f833957180d8967379ae3fe6176
-Section: Filza
-Description: 本体：Filza Crack
-Author: Netskao
-Name: Filza Crack-roothide
 
 Package: com.opa334.altlist
 Version: 1.0.11
@@ -1004,25 +949,6 @@ Priority: required
 Description: roothide core package
 Author: roothide
 Name: roothide core
-
-Package: roothide.patches.filza
-Version: 0.5-4
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 268
-Depends: com.roothide.patchloader
-Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
-Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
-Filename: ./debs/Patches for Filza 64bit_0.5-4_iphoneos-arm64e.deb
-Size: 31076
-MD5sum: 86d08818350351a9afe733d6e7e9359f
-SHA1: 6a6330cbd9ef4a2fbefe26dfb546d3e0401d9dda
-SHA256: afc279f963ddc893110d7449cd34b219336eeafac1877169af11d5eae8f9a558
-Section: RootHide Patches
-Description: RootHide Dynamic Patches For Filza
-Author: roothide
-Name: Patches for Filza 64bit
 
 Package: rootless-compat
 Version: 1.9
