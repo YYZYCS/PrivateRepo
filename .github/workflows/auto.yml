@@ -31,7 +31,7 @@ jobs:
         run: |
           rm -rf ./debs
           mkdir ./debs
-          echo "# Debs Repository" > ./debs/README.md
+          echo "# Debs Dir" > ./debs/README.md
 
       - name: Install Dependencies
         if: success()
