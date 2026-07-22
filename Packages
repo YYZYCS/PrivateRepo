@@ -1,0 +1,16 @@
+Package: com.wkk.hookcc
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/控制中心音量亮度增加百分比_1.0_iphoneos-arm64e.deb
+Size: 5536
+MD5sum: a669769147e95127a1335ec2307d38d1
+SHA1: c22b3899f8fb5fbac4242fa8a2882c3d6bb29443
+SHA256: 8738f83fdd7d7a03b3c4c919276783d10a1aa70ba9d2522c0b3fd4fe4ba38804
+Section: 控制中心
+Description: 控制中心音量亮度增加百分比。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 控制中心音量亮度增加百分比
+
