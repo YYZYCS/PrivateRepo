@@ -6,11 +6,11 @@ Installed-Size: 120
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
-Size: 28816
-MD5sum: 67a0753ccfe483c9016430ea5f888ea3
-SHA1: 9d32ed50476bd2722ef8dc5655a5fe9726d9050a
-SHA256: cedb1ba390a471c52098edca81918976f1961d5eab5cfd5a021fca0f979929a8
-Section: Filza
+Size: 28852
+MD5sum: 2b96b706ab26c5518a2a0e2b1319a569
+SHA1: 70d39ac19d042e3cc8218c001b06542e86273b1b
+SHA256: 6889b2aa3ffdef5ba2a850fce39e6719e08051fd3ba8d70d5cbea21b41476cd0
+Section: Filza1
 Description: 本体：Filza Crack
 Author: Netskao
 Name: Filza Crack-roothide
