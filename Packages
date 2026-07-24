@@ -1,0 +1,87 @@
+Package: cm90.crossoveripc
+Version: 1.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: @CrazyMind90
+Installed-Size: 368
+Depends: mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/CrossOverIPC_1.1-1+debug_iphoneos-arm64e.deb
+Size: 16016
+MD5sum: e478731ce2fe0d76137bf11eb4d9450b
+SHA1: 38023df673ee3b109396cea3496a9e44f66c698d
+SHA256: 46858c9c2f672612eccd05eb23abdd1a60cec282f738d601fd71adb8699c43f0
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: com.muirey03.cr4shed
+Version: 4.3.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2356
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid, cm90.crossoveripc
+Filename: ./debs/Cr4shed_4.3.1-1+debug_iphoneos-arm64e.deb
+Size: 203556
+MD5sum: 356e173b2f56a11ec3fd6c12d1b6558a
+SHA1: b3a607c47eb8fe2fab7f13a27818821a1e4cf0a5
+SHA256: 24bb94b22e4e3571ea0d0dc166a884dd4c6b54dea50f27a01e9881b2d673acd6
+Section: Tweaks
+Description: A modern crash reporter for iOS
+Author: Muirey03
+Name: Cr4shed
+
+Package: com.opa334.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1056
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Filename: ./debs/Choicy_1.5.3-2_iphoneos-arm64e.deb
+Size: 161596
+MD5sum: 07a98aac48194db8a0ff7efdbef67cf1
+SHA1: d6cb7182e0c852b868bd656603b232326140a92f
+SHA256: 76f891e3bd5f613eb2d468deeb0769119a0d21243b25bbd53237267b6da55fd1
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.sini921.disabledwarning
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/DisabledWarning(roothide)_0.0.1-2_iphoneos-arm64e.deb
+Size: 3556
+MD5sum: d3b498a0ec313892f06990d446a44a94
+SHA1: d258b9f1ee74dce0ce93caccc6e93b31d7410caf
+SHA256: 1926b76a7d2825d22f0ec97bad41acf1a7df3ab79ebc63bbb7a294d302471228
+Section: 越狱插件
+Description: RootHide(黑名单)与RootHideInject(白名单)每次打开都让我卸载openssh，卸载是不可能卸载的，所以去掉这个警告弹窗
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/disabledwarning.png
+Name: DisabledWarning(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/disabledwarning/js.json
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support_2.0-29_iphoneos-arm64e.deb
+Size: 270180
+MD5sum: 43ce07e8b68d34c5337908e09da2d97c
+SHA1: 746f0af1b436885ced92c6f9938206542581af07
+SHA256: 867163fdd2feb4aa98ac9011b9fd2403cf33f1af196e01f733060ec5fe38da85
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
