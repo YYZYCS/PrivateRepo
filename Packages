@@ -1,0 +1,1101 @@
+Package: ch.xxtou.xxtouch
+Version: 5.4.5
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 61608
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/XXTouch Elite_5.4.5_iphoneos-arm64e.deb
+Size: 20492904
+MD5sum: bd01924347d6067adcd3a907ca7dca5c
+SHA1: 60d24f2072d9eb2cb9205df739c40f6d8be8706f
+SHA256: 52183fbb3294c457d0c5499d75cf3b0a8826290f6a6f709cf5f1e57e4a34efed
+Section: Tweaks
+Description: XXTouch is a powerful and flexible automation tool for iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: XXTouch Elite
+
+Package: cm90.crossoveripc
+Version: 1.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: @CrazyMind90
+Installed-Size: 368
+Depends: mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/CrossOverIPC_1.1-1+debug_iphoneos-arm64e.deb
+Size: 16004
+MD5sum: 470aef0ecbc05b7b68ada4d742c41f40
+SHA1: db70414a84d3c9af296b74fda43cd4231c2520fd
+SHA256: 60321142096516e76bf4e0e1909f3d7d746d92a1595bc1946f4bc577deebed8b
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: cn.llld.cocoatop
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/CocoaTop (汉化插件)_0.0.2_iphoneos-arm64e.deb
+Size: 19344
+MD5sum: 645521d4a7af03c0642196bb39509599
+SHA1: dd9341066dfa3c4a36952391df203c897e1f942f
+SHA256: bf9fbfd1c3740bc8f07671e867fd4439da7d623539fc6a17d58377d8ece4fc6f
+Section: roothide汉化补丁
+Description: CocoaTop汉化插件，适配官版和真皮4个修改版
+Author: 来了老弟
+Name: CocoaTop (汉化插件)
+
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/CopyVault(激活码版)_1.9.0_iphoneos-arm64e.deb
+Size: 1707364
+MD5sum: eebf6c1b87e9064ec01fdfca2e3e4190
+SHA1: 095aae4615f13e012089a0bfd2932a5358a745a3
+SHA256: cc3f845992d102c13ca42c438ec21136ebcd82378ac734defb4c8bb02bfe4da9
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/SquidExtender(激活码版)_3.7.4_iphoneos-arm64e.deb
+Size: 4397716
+MD5sum: da3757c47a1c3319e7d85c17606667fb
+SHA1: 79762c8ee2af438a89bfecdbaa735bfb0709dc09
+SHA256: 2053f3c6e1ba0270d0b17f494cbbe273cd773defdd00bc740bdaf6b332bdcf2f
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/SquidGesturePro(激活码)_2.7.6-1_iphoneos-arm64e.deb
+Size: 1789228
+MD5sum: ad1fb49a6da233329a3f550b72aa0159
+SHA1: c93b456d68e7967cf9adb6bcd66e150bfeae2b74
+SHA256: 6ebdda2ce3af1f3a86f2152c232fcdb9307a1b631b1cdafce3d6169376379736
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.zqbb.ccatop
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: SXX, Domo
+Installed-Size: 840
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: ./debs/CocoaTop_2.3_iphoneos-arm64e.deb
+Size: 183240
+MD5sum: c8c4368ee3a33e21a2c91f1ee3ff9391
+SHA1: fc3ba40a11386a7342b71bbe4a29d93a339a48cf
+SHA256: b5a1bef4a3ac4582e3b39efb7c4304cd4cbb2f8fff95f192706405118aab77e4
+Section: Utilities
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Author: Domo, SXX
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
+Name: CocoaTop
+Sileodepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop
+
+Package: com.0xkuj.filzadirprobe
+Version: 1.7.2
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: ./debs/FilzaDirProbe_1.7.2_iphoneos-arm64e.deb
+Size: 71924
+MD5sum: 18b7fdec4b2201d89c494c780ed09713
+SHA1: 714db044ed1767b4c7aad6b349e6199e7784421a
+SHA256: 2eba9d58f0d1e6c78ec74c98922c40658805ee5b5c1892ff09e5f4fbb02c01b5
+Section: Filza
+Description: 计算Filza里文件夹大小。
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: FilzaDirProbe
+
+Package: com.0xkuj.safarix
+Version: 1.9.9.1
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/SafariX_1.9.9.1_iphoneos-arm64e.deb
+Size: 325544
+MD5sum: 5917ea8dd8f29f09aff44ac7d2ced119
+SHA1: 85f81b16cae2750bf1162d790002a1edafa9bc04
+SHA256: bbb58413c7fc39face8e2823fb2cd8608c6bc93270d8af118fa626c3669de1ca
+Section: 插件
+Description: Safari浏览器增强。
+Author: 0xkuj
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+
+Package: com.82flex.touchvis
+Version: 4.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4416
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/Touch-Viz_4.1_iphoneos-arm64e.deb
+Size: 940596
+MD5sum: 97640ed6c36d04b95cca037f9838a43c
+SHA1: a61bc5cc34ea9796fcafd3217c1d4ac21f30b35e
+SHA256: 83b4a93d28b80c176354e02b18f90d6674e6680bd4bc181ae5d1df3364a793ba
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2692
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/floatingView_1.6.0-6_iphoneos-arm64e.deb
+Size: 673448
+MD5sum: 1dca366c9a3186f8c6b5cf0b86e1c48e
+SHA1: 49af38cbedfc1735c7afe51b988728518c36dd2b
+SHA256: 3ad0424abb53e6ab7e6facfacd2ba577de5eb35a803ade5f2323b3b0dd0d3087
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+Name: floatingView
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+
+Package: com.cannathea.afc2d-arm64e
+Version: 1.1.7-21
+Architecture: iphoneos-arm64e
+Maintainer: Cannathea <csupport@cannathea.com>
+Installed-Size: 212
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0), ldid | firmware (>= 15.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/Apple File Conduit "2" (RootHide)_1.1.7-21_iphoneos-arm64e.deb
+Size: 12376
+MD5sum: e092f956eb954e67526a72a31f2d263a
+SHA1: 9e766d232252271f771b5c0fdae0c5808630f90b
+SHA256: e490ad5c15cca49fc64a9cd485218e5fff003af9b9ac13e70aeabd76928859a4
+Section: 允许通过USB完全访问iPhone
+Homepage: https://cannathea.com/
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on RootHide. by Shadow-
+Tag: purpose::daemon, role::enduser
+Author: saurik, Cannathea, i_82, Shadow-
+Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
+Name: Apple File Conduit "2" (RootHide)
+
+Package: com.dao.ccless
+Version: 2.1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: ./debs/CCLess++(RootHide)_2.1.0.1_iphoneos-arm64e.deb
+Size: 498136
+MD5sum: 8357915485d79973b9d41bbbec86fb7c
+SHA1: 009acc0ce64a40af7bc2c1e2846fa0b256ca4859
+SHA256: f36235a89b5d6b489bc8d926a042837741a5ecdffae9aef3f35734c9e1cf1204
+Section: 嗨-工具
+Description: 超级控制中心模块集合！
+Author: 妖刀
+Name: CCLess++(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.flex2areo.appprotect
+Version: 2.4.4
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 2648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Filename: ./debs/AppProtect(Roothide)_2.4.4_iphoneos-arm64e.deb
+Size: 708544
+MD5sum: d2ff8adedd190362b9c92cd9b67d4c76
+SHA1: ed60dd4a10f4c98a64754209f80c21c0fea09603
+SHA256: 68f647283ccd13d90d559bb6c3c5e008a9a11e2da7abd7b5979bc28f1e292610
+Section: Tweaks
+Description: App 隐私保护
+Author: aReo
+Name: AppProtect(Roothide)
+
+Package: com.flex2areo.apptools15roothide
+Version: 2.7.6
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 3852
+Depends: mobilesubstrate
+Filename: ./debs/AppTools15-16(Roothide)_2.7.6_iphoneos-arm64e.deb
+Size: 1210644
+MD5sum: 457d05181d484055581aa9848c062d1d
+SHA1: 07c58eb22eb6fc3f3028b24ce21b262ca625021b
+SHA256: 55ec49454d89d52e5f8f79c8e338c11722dfa55bc3856ac53afdd4cc5268ccc6
+Section: Tweaks
+Description: AppTools for iOS15-17 Roothide
+Author: aReo
+Name: AppTools15-16(Roothide)
+
+Package: com.iosdump.jumpselect
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/JumpSelect_1.0.0_iphoneos-arm64e.deb
+Size: 59820
+MD5sum: 4dc2c25a6330574813663617566ce38c
+SHA1: a27c5c15c9b5a7d26b7519e25e7c4854e857402c
+SHA256: df5d61fa2ad9b23f6b88693f58c9a966523dc9e5db27b1145c2e8a12ecc40502
+Section: Tweaks
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Name: JumpSelect
+
+Package: com.iosdump.memorycontrol
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/MemoryControlX_1.1_iphoneos-arm64e.deb
+Size: 87328
+MD5sum: 99814f6851d51aaa6849dbd603b85102
+SHA1: fb9d614024a6bced4f996e70412588918b15e2b5
+SHA256: 78da4fe497fdfdc7f6b2cabb20076e73141477d7cb1ab2379028bc926ff2640c
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Name: MemoryControlX
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/Snapper 3_1.2.1_iphoneos-arm64e.deb
+Size: 1004572
+MD5sum: cc639f8608f6e87b4be1c0c6b48df7d5
+SHA1: 1fa9351ecc0db1e84ec34da77a561529c12b2431
+SHA256: 9df2c9782757c86f9da9cff6d840fbd4afec79615792c17cbfa9bf21cf805c15
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Icon: https://huayuarc.github.io/icon/snapper.png
+Name: Snapper 3
+
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.4
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 109152
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: ./debs/FilzaEnhanced_1.0.7.4_iphoneos-arm64e.deb
+Size: 24503080
+MD5sum: d69eb6f685a6c2f7b594e5ba523ebe08
+SHA1: 88a6c21fc15553b13fb86329b9bc72e4cb269b84
+SHA256: 228aaa05a5611f54a9ac1e78363a960a8f4768e68178cc5431e7c67f109fa0db
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/Hammer It_1.7.1_iphoneos-arm64e.deb
+Size: 956128
+MD5sum: 2a5361b7d25a912969a880a992e5b73f
+SHA1: c18deac916af42bd839898ea36af22a1530d8f70
+SHA256: 3d32d9a3cd891b6788cc12af0ac095785dac0e8bc320e31e312a60b120f19ce4
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Name: Hammer It
+
+Package: com.lclrc.recordanywhere
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03 & lclrc
+Depends: mobilesubstrate
+Filename: ./debs/RecordAnywhere_1.1.0-1_iphoneos-arm64e.deb
+Size: 4184
+MD5sum: 784ff0c66b32343c4c9962b3e51d5871
+SHA1: fed506f8d5ec49b29965808310ea278bbf029da2
+SHA256: 0643825912df299db3860e27a117e8b7a29f1054c32797e6d4f33d3bd10180e1
+Section: Tweaks
+Description: enable screen recorder always work even on lock screen
+Author: Muirey03 & lclrc
+Name: RecordAnywhere
+
+Package: com.m4fn3.k2gecamen
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: mafu
+Installed-Size: 8928
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/K2gecamen_1.1.0_iphoneos-arm64e.deb
+Size: 5970128
+MD5sum: 56056f57516ac91c17da1c9cd31c9ef3
+SHA1: c48e23b67e25f803931ede80220981a7e0d0c8a3
+SHA256: 850be854a5078a91d277500f2a95bbbeefad7ec53920fb0c25475f62bf229dfc
+Section: Tweaks
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Name: K2gecamen
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Installed-Size: 380
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/LibGcUniversal(roothide)_1.7.0_iphoneos-arm64e.deb
+Size: 55612
+MD5sum: 77e6dfd35eddbc7c847d3adebbec6415
+SHA1: b28f88a751e89e3554b43b2bc7a192ab3bdf6f2a
+SHA256: 6724edfd2906651eb21b771a07291ded9d692da3eb5e4f8d30326d397341856f
+Section: 插件依赖
+Description: 有些插件需要这个依赖（通过RootHide Patcher转换）
+Tag: role::developer
+Author: MrGcGamer
+Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
+Name: LibGcUniversal(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libgcuniversal/js.json
+
+Package: com.muirey03.cr4shed
+Version: 4.3.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2356
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid, cm90.crossoveripc
+Filename: ./debs/Cr4shed_4.3.1-1+debug_iphoneos-arm64e.deb
+Size: 204516
+MD5sum: b90f28b647bb05fd1c916503ff04406b
+SHA1: 70621d167a79dacb6186a89063e406d3e17741d1
+SHA256: 9638950268a8866e9367d793a68c8e48a39b5f658b031a9901f996123a09e687
+Section: Tweaks
+Description: A modern crash reporter for iOS
+Author: Muirey03
+Name: Cr4shed
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/Filza Crack-roothide_1.1-9_iphoneos-arm64e.deb
+Size: 28844
+MD5sum: 1d353f022e6a8c2ec310547ae068c4f9
+SHA1: 4ea726f8176a7711fb71e65a91870f984098da59
+SHA256: d451ddb16dff3ec11c5861194549d16a810beebb64c5617854bc510c05c842e6
+Section: Filza
+Description: 本体：Filza Crack
+Author: Netskao
+Name: Filza Crack-roothide
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>= 7.0)
+Filename: ./debs/AltList_1.0.11_iphoneos-arm64e.deb
+Size: 27936
+MD5sum: a668b595a84a58ec219d5b007af1b3a9
+SHA1: 4a41c65f69f22b7c58064c6f92ac1e30ba1c5578
+SHA256: fa3712730676ced9690a06addd3aa6b72b1c421094df31bc6daf0c5c3405d420
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2-15+debug
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 716
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/CCSupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Size: 73384
+MD5sum: b66e6b0e076b5da188ddea7726de947a
+SHA1: 877f4846f848b286c8ee8e5bf058b1b4162bba8b
+SHA256: 13da50407a3e6cfc60108ee1fff71910bdf6f32f0d2c88882f6aad48d18e1875
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1056
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Filename: ./debs/Choicy_1.5.3-2_iphoneos-arm64e.deb
+Size: 161636
+MD5sum: 186e8f224efbc55a2bc16226dcbded9f
+SHA1: ffa3c72622515a7e2617d15dc4743e699730c2dc
+SHA256: c3047af7f38dfbb26f1dd3d70b4d9372bb34b2ce97e107b299ca1d6946f7ab96
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 468
+Filename: ./debs/libSandy_1.1.6-4_iphoneos-arm64e.deb
+Size: 19744
+MD5sum: ca3eaab0200c2c2f4ecd942dc71e6e8c
+SHA1: 47cb29f92af380798dba4c47573032a1de3d48dc
+SHA256: 1d3eb1b57b2b97bace1c28ed38613519ccf2c6698c0b4cb30bbce98760ce1fc3
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: com.roothide.lockdown
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/lockdown_2.0_iphoneos-arm64e.deb
+Size: 5380
+MD5sum: ef09a6711af5bc0261a37a1d7f09a379
+SHA1: 04357b59390a48249f5859d50dd31a825a0b538d
+SHA256: 9e90cca033a43634c13c472abbf1d8e7fec0a98ad2affacb5a265eceb6081853
+Section: Tweaks
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
+Author: roothide
+Name: lockdown
+
+Package: com.roothide.manager
+Version: 1.3.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 1108
+Depends: firmware (>= 15.0)
+Filename: ./debs/RootHide Manager_1.3.9_iphoneos-arm64e.deb
+Size: 752364
+MD5sum: 6d804ec5a490b594cc95d5d3cbd61829
+SHA1: 485fc5eef258a5ce92a0eec4a1b6e77b79910ccd
+SHA256: f367934cbc67bb7aade1939ede44e6fae00cf6e067ffabd9d5ded4950654c40e
+Section: System
+Description: Configuare RootHide's Features
+Author: roothide
+Depiction: https://github.com/roothide/RootHideManagerApp
+Name: RootHide Manager
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.roothide.patcher
+Version: 2.1.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Filename: ./debs/RootHide Patcher_2.1.4-1+debug_iphoneos-arm64e.deb
+Size: 1168208
+MD5sum: 8f9f20d5dbf17c2872a0431787a123af
+SHA1: 7118e6c94e93c832ad98b74e0951a451813a973e
+SHA256: 3a84fc29d8abcc3e7b9dd7dd873aa7294130f9adec30a76790f036e3cdbd53ea
+Section: Utilities
+Description: patch rootless package to roothide, not work for all packages.
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.roothide.patchloader
+Version: 0.0.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 132
+Filename: ./debs/PatchLoader_0.0.8_iphoneos-arm64e.deb
+Size: 3828
+MD5sum: a054f0ab2c6e850a99057f5c1622d877
+SHA1: b0083dca4a30650137cd82dbce00058934236179
+SHA256: 1f4b965221215b91d7ff28d4f1edb09c83f76f6f3f93bf2379a86ed7cb08f02a
+Section: System
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Author: roothide
+Name: PatchLoader
+
+Package: com.sini921.appstoretroller
+Version: 0.1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/AppStoreTroller(roothide)_0.1.2-5_iphoneos-arm64e.deb
+Size: 44112
+MD5sum: 8dd53967ef8560c2476ce712605103f8
+SHA1: c8c97d9edb194a1608ad6bdf762297cee3f5a368
+SHA256: 6b257baea99dca88c481100a49f7a8adf309993841a8eb572c927af11a196301
+Section: 越狱插件
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Author: Mineek & Nathan & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
+Package: com.sini921.disabledwarning
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/DisabledWarning(roothide)_0.0.1-2_iphoneos-arm64e.deb
+Size: 3552
+MD5sum: eac0e77262c4447d58c13d3ea0fce558
+SHA1: 7b3b73f675f82e5fee58b3624ec512361d1642b8
+SHA256: cdd253d8f16da7da8d9980fbdbe90d9498124db3b8e1009d6e6804f5dc47e798
+Section: 越狱插件
+Description: RootHide(黑名单)与RootHideInject(白名单)每次打开都让我卸载openssh，卸载是不可能卸载的，所以去掉这个警告弹窗
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/disabledwarning.png
+Name: DisabledWarning(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/disabledwarning/js.json
+
+Package: com.sini921.folderpro
+Version: 0.0.1-39
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 1524
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/FolderPro(roothide)_0.0.1-39_iphoneos-arm64e.deb
+Size: 520964
+MD5sum: d0cc95b31eed341c82520f5fbd758968
+SHA1: 577bc9faa95a9b068b7e319fd643cf923aacdc3a
+SHA256: 5cde940e9b37b22bc7757350e3a191a976875d1994faba4551a50efabe1cf317
+Section: 任务界面
+Description: 后台ipad网格切换界面，图标下载进度百分比，桌面文件夹布局各种功能(只有桌面文件夹里4*4等各种功能，没有桌面图标行列数量自定义功能，此功能用atria)。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(roothide)
+
+Package: com.sini921.morecomplications
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Skitty & SINI
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/MoreComplications(roothide)_1.0-1_iphoneos-arm64e.deb
+Size: 16896
+MD5sum: fe397d5b4228a607ed4cc25ddad38d4e
+SHA1: db5471d84b473319609aaf67b4307a0f31fe858e
+SHA256: 1e0bbb6f699ee864f7a6f800b0e9e2cd98ccae91eb6eab341a5b427c43083f3c
+Section: 越狱插件
+Description: 添加更多的锁屏小组件，基于开源重新编译，直接适配roothide。
+Author: Skitty & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/morecomplications.png
+Name: MoreComplications(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/morecomplications/js.json
+
+Package: com.susu.snapper3.picta
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 180
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: ./debs/Picta_1.0.0_iphoneos-arm64e.deb
+Size: 11552
+MD5sum: 87aa304546b10e9755fd3080b768e5a6
+SHA1: 27c341d8129d6e8d998cc5ea257d36319f558cab
+SHA256: 885102573619bac7355f875e9586c8aa7ec57a11cd886a7f9cdaf8de83cea1ab
+Section: Tweaks
+Description: Picta适配 Snapper3 的插件
+Author: SuSu
+Name: Picta
+
+Package: com.udevs.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 2036
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX_2.6.2_iphoneos-arm64e.deb
+Size: 415612
+MD5sum: c14a9ce02f6f9207cc4666ab23a3a18e
+SHA1: fdd035aebd7d934afe9fa6c49024781bf9691089
+SHA256: 2d539cee21da73c7de51c4de1be49158ce72882cf8ded4a21f7147f0fcc203ab
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.wkk.choicyconfigpin
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: ./debs/ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
+Size: 5964
+MD5sum: 75a9723765e7925af214214a258237d5
+SHA1: 0e7bf6b15b66c8aab734a94581c4b40861dacc00
+SHA256: 1fcfc24be57823469d1ac31cbd4c7834b431eef7051c0776f75c017797468ae5
+Section: Tweaks
+Description: 在下次打开Choicy时将已调整的 App/Process置顶到Section最顶部（本来想重新编译个Choicy最后想想还是直接hook方便）
+Author: huami
+Icon: https://s1.imagehub.cc/images/2026/02/08/1238dc10ad390a948b0c6ac8c669c698.png
+Name: ChoicyConfigPin
+
+Package: com.wkk.hookcc
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/控制中心音量亮度增加百分比_1.0_iphoneos-arm64e.deb
+Size: 5536
+MD5sum: b511f823881035f38a17ddbf9b77a667
+SHA1: b3dc13a6a9d58924cbb359076978af4457046402
+SHA256: 59513bbe2b733c950e86cb20cf4427d9fe48f8e4e3c0b99c04230d36a7604aa9
+Section: 控制中心
+Description: 控制中心音量亮度增加百分比。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 控制中心音量亮度增加百分比
+
+Package: com.wkk.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64e.deb
+Size: 1107272
+MD5sum: 5e8e355af24e8a3967257f99094d6a10
+SHA1: 8c7fda623ea8717d9d22d2f52f3daba7ff50ea8a
+SHA256: 0575ed4d978b887384818bd4ccfcaf29a922b8cf74f5c2b54ec9c15c44b4f9e4
+Section: 应用程序
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文。
+Author: Ivano Bilenchi
+Icon: https://s1.imagehub.cc/images/2025/01/01/3c86578830a5a4b2897f2780576e07a9.jpeg
+Name: iCleaner Pro
+
+Package: com.wkk.immortalizer
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: sergy & daodao
+Installed-Size: 660
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.sergy.immortalizer
+Filename: ./debs/Immortalizer_2.0.1_iphoneos-arm64e.deb
+Size: 52244
+MD5sum: 13aca5f245288dfed3d34f8a862b1c73
+SHA1: b0b3f12726e5ba0a07be121242c82401d48a3bb9
+SHA256: b0132102ab3cf96b6821bc6ebce1174a3cb37c2edc3b1d4ee50bbecf8dd625e9
+Section: Tweaks
+Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
+Author: sergy
+Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
+Name: Immortalizer
+
+Package: com.wkk.insulation
+Version: 0.1.31
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 628
+Depends: firmware (>= 15.0)
+Filename: ./debs/insulation_0.1.31_iphoneos-arm64e.deb
+Size: 50572
+MD5sum: f4b14cd848f2370b333080312d4eebc7
+SHA1: 4574e0bb35829fbef9cad512d8ac4e082cc3a581
+SHA256: 6474d3929f4214d299eaf61f7781b5d1f7ffaafb267a67f73537a0fa615312fc
+Section: Tweaks
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
+Author: be-huge & doimty
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: insulation
+
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/OneSettings_2.2_iphoneos-arm64e.deb
+Size: 224352
+MD5sum: 200d33bceb3398a49f4d2251e4220ad0
+SHA1: 3357b5c590ea8aa7f4b93150c72d6136991af0d3
+SHA256: e6a281baa4d4c88b2016b7e87e251599f7cf447bc08de6be82d5a1dc43b11c0c
+Section: Tweaks
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
+
+Package: com.wkk.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/QuickPrefs_1.3.3-1_iphoneos-arm64e.deb
+Size: 513188
+MD5sum: ef3bf6ef79c0b6598abe08bb6bbfa6c1
+SHA1: 2197f00cc7aa91757179c1443ac4fef3dc3e2b27
+SHA256: a6f717319895be1065beff3547006c714ee9fc99e3f8243037dfd000ee21d3d0
+Section: Tweaks
+Description: 设置里的项目抓取，已汉化，上架备份。
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
+
+Package: com.wkk.sblockhook
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/长按锁屏呼出手电筒_1.0-3_iphoneos-arm64e.deb
+Size: 4036
+MD5sum: 4fc707b5991a92326e4524cb1fcda298
+SHA1: 7857ba5d1cfab5ca6c1053d51ce551e79d0d213b
+SHA256: 98e516880e2156379a52c69e616cdc2044852fdbd5f7039953a50ec16683cef1
+Section: 快捷开关手电筒
+Description: 长按锁屏键手机电筒(息屏才触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
+Package: com.wkk.settingswidgets
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: shepgoba <arm64.deb@icloud.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/SettingsWidgets_1.2.2_iphoneos-arm64e.deb
+Size: 75604
+MD5sum: 9c4aef21c355f956583db2f08b6ed707
+SHA1: 79fe7b961b74dc59b0b8b62a2480dff3df86e544
+SHA256: 54f774e17e1feaeca71f2694403734e7ea300936f13c29455cd5cc61696a0880
+Section: Tweaks
+Description: 将美观的小部件带到设置的顶部，已汉化。
+Author: shepgoba <arm64.deb@icloud.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsWidgets
+
+Package: com.wkk.snapper31
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.squidforce.snapper3.plugins
+Filename: ./debs/Snapper3美化_1.1-1_iphoneos-arm64e.deb
+Size: 22764
+MD5sum: ace82a65851caa73be4f7cacba5c49c8
+SHA1: 8b075d9e35dae339fb290a8c465ceceb9d8c51ee
+SHA256: 6876421c4301629da3ead6e7332458d42d2253da109a2432b8ea346d4d803ecb
+Section: 美化
+Description: 纯文字美化。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.png
+Name: Snapper3美化
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/snapper3.json
+
+Package: com.wkk.systembox
+Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1060
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/SystemX_1.2-2_iphoneos-arm64e.deb
+Size: 196648
+MD5sum: 43543f73dc753674bef98f57803bc38a
+SHA1: eb147e2a9c9f5dccedd7b549d83b6bad53fbcfac
+SHA256: 9017672f49cb65def0a6c4ad6b1778229020c011198066633d48995fb626a473
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SystemX
+
+Package: com.wkk.tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/一键备份和恢复工具_2.0.0-beta_iphoneos-arm64e.deb
+Size: 11272
+MD5sum: ed551bdeca63bb810b1638be74fc9cb2
+SHA1: 8c5870ada72fe85b72ecbf7c2059cbca19ba0883
+SHA256: e01ef6fa2a08e1ec2574cb55269dee0f67f1fc0442f787190b1ccc7f6ecc02bc
+Section: #配置插件备份工具
+Description: 使用方法：进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。注意：它是备份至 .jb 目录下，清除越狱之前一定要复制一份到非越狱 .jb 目录下，源主之前忘记复制越狱给清除了，折腾了两周才完全搞好🥲。
+Author: 预言小猫
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 一键备份和恢复工具
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 2.3.7
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/电话助手iOS16-正式版(Roothide)_2.3.7_iphoneos-arm64e.deb
+Size: 2700184
+MD5sum: 6f7fc3c991dc50f238c9c6d7836964c6
+SHA1: 9ae14f632c78c835f286e22e630b148833321a23
+SHA256: 3737e4ecf35253dac01ea6b59a3b5186b1dd61786b4cc115cfeee38debd19760
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/632
+Name: 电话助手iOS16-正式版(Roothide)
+Sileodepiction: https://apt.htv123.com/sileo/632
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Version: 1.2-31
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: ./debs/灵动通知iOS16-正式版(RootHide)_1.2-31_iphoneos-arm64e.deb
+Size: 544280
+MD5sum: 6809cb0e3350be9ebf9d7bc3fe2c183a
+SHA1: c8fd600ce0767e7ebe5cfe6e83258d5d7b7ad6bf
+SHA256: 4bbe19e2f7be868c336a68d637bcf533bb5f092d4d2bc396d893743a82c4a491
+Section: System
+Priority: optional
+Description: 完美的使用原生灵动岛展示系统通知等...
+Author: xybp888
+Depiction: https://apt.htv123.com/view/621
+Name: 灵动通知iOS16-正式版(RootHide)
+Sileodepiction: https://apt.htv123.com/sileo/621
+
+Package: com.zqbb.savephotos
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/Hello Snapper3_1.1-1_iphoneos-arm64e.deb
+Size: 3384
+MD5sum: 9d66c8895e5832a4ed9eb3d2c0d3dfa6
+SHA1: f7a4a1740088e541af33f61fe413ab25ac5c11bb
+SHA256: 96f30bfacb40fadbe8d4658f584491154aa602a81e8fbf05f7f7d8d7ad0decff
+Section: Tweaks
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Author: zqbb
+Name: Hello Snapper3
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+
+Package: dev.theos.orion14
+Version: 1.0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Filename: ./debs/Orion (iOS 14-17)_1.0.1-3+debug_iphoneos-arm64e.deb
+Size: 162300
+MD5sum: 949022f527620fc2fcbf5f3a426f5048
+SHA1: e3a2faf31d7dad332284aefb84ed65086ffefae7
+SHA256: 299266215da6ba18ac58cfc9d114076e2ff12e61177b5cd645e4426ecdfbb3b0
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
+
+Package: org.coolstar.sileo
+Version: 2.5.1-12
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/Sileo_2.5.1-12_iphoneos-arm64e.deb
+Size: 3949264
+MD5sum: 690ae7071867a385f313265c44753028
+SHA1: 9a4f5a48a9726dd7687fac1845699264b6da6288
+SHA256: 3683594866224a15a623b62b1fa1e817647d05dbc86a481f51eeb7c9bed8d326
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: preferenceloader
+Version: 2.2.6-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 456
+Depends: mobilesubstrate
+Filename: ./debs/PreferenceLoader_2.2.6-11+debug_iphoneos-arm64e.deb
+Size: 26552
+MD5sum: 74ffc5a0a42f20677b32b9eaff9cf9a1
+SHA1: e108ed6f18e89d9b6bb724858f7bb6b8552315c5
+SHA256: 432e862d11ed8c12cf38f057ee475a5a7033e7002cad99ddd74e25f4c1837cae
+Section: System
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: roothide
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide
+Installed-Size: 936
+Filename: ./debs/roothide core_0.1.0_iphoneos-arm64e.deb
+Size: 41540
+MD5sum: af253f5cb584ec8510ea6abad2fdff9d
+SHA1: 082f2a7faf9c6ff01fe809708a2948b323ff0163
+SHA256: 27a115d1ea67c32081f6e437b5297c02633288a48769edb517a8d2451ab1cf3f
+Section: System
+Priority: required
+Description: roothide core package
+Author: roothide
+Name: roothide core
+
+Package: roothide.patches.filza
+Version: 0.5-4
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/Patches for Filza 64bit_0.5-4_iphoneos-arm64e.deb
+Size: 30992
+MD5sum: c6bb54fb73d09410e6fe2462f14c1531
+SHA1: 26a2bfd7b4940f35ac4864a3be5b154695f4a35d
+SHA256: 660aa3ee4bb15125686d94f164bd583209aeb57bf4424655c2ad5cbbc1c0dd52
+Section: RootHide Patches
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
+
+Package: rootless-compat
+Version: 1.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader (>= 0.0.4)
+Filename: ./debs/rootless-compat_1.9_iphoneos-arm64e.deb
+Size: 39768
+MD5sum: a092bff7ce631846b2945ef2a112a4c8
+SHA1: e87be19ac0d4ffc882d109b32580c56c4a6d7e66
+SHA256: b01c510ab5a61480c476b2e80a4987d25dc7f51851ae7df2653c45d6d6b5af8f
+Section: RootHide Patches
+Description: Compat Layer for Rootless Tweaks
+Author: roothide
+Name: rootless-compat
+
+Package: ws.hbang.alderis
+Version: 1.2.3-8+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/Alderis Color Picker_1.2.3-8+debug_iphoneos-arm64e.deb
+Size: 552708
+MD5sum: 3939dfc2bda9332ac1f33e31e134f5f8
+SHA1: b5b69f6ade93286e49526a6bf07b3022edaf63d9
+SHA256: 4f0e7ddbc7865e9d4d32bf624b1df4e5c9a397093208dc8995e1071883c9af62
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Dev: hbang
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support_2.0-29_iphoneos-arm64e.deb
+Size: 270216
+MD5sum: e26ab22012af23ee7d5247d4aa124793
+SHA1: 99373888b23daf14ad88bfc8a75bde964b7d6efb
+SHA256: 99f9e599ef12bfb5ba4d14770f23fada696e26ce3ec09a889ebf96675f26486e
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
