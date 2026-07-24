@@ -101,6 +101,22 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
 Name: QuickPrefs
 
+Package: netskao.perfectgrabber
+Version: 1.1-6
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 360
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/netskao.perfectgrabber_1.1-6_arm64e.deb
+Size: 86686
+MD5sum: f81431b0e73c960d958844fa7a1757f3
+SHA1: 4ba39e62a2d7fb58bf7d68b450a158a2cd8246a8
+SHA256: 8e304c5fbeeb9ef3e4d8dde086cf3f1679882fb353c7071f97685c75c91bb7bb
+Section: Netskao-Tweaks
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Author: Netskao
+Name: PerfectGrabber
+
 Package: roothide.patches.filza
 Version: 0.5-4
 Architecture: iphoneos-arm64e
