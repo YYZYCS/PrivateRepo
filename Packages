@@ -1,3 +1,21 @@
+Package: com.dao.ccless
+Version: 2.1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: ./debs/CCLess++(RootHide)_2.1.0.1_iphoneos-arm64e.deb
+Size: 497984
+MD5sum: 6147b9db2f0035f67d3f2c52260648c7
+SHA1: 214c504ab5e697dac7dd8d3e9f46170bb7f82747
+SHA256: fffe164f6b83319dfadb5769e6c54e33c9c037b8c6390a77be09de6156ff42dc
+Section: 嗨-工具
+Description: 超级控制中心模块集合！
+Author: 妖刀
+Name: CCLess++(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
 Package: com.iZJ.folderpro
 Version: 0.0.1-39
 Architecture: iphoneos-arm64e
@@ -14,6 +32,43 @@ Description: 后台ipad网格切换界面，图标下载进度百分比，桌面
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2-15+debug
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 716
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/CCSupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Size: 73648
+MD5sum: 598533530ca3206448eb5000859d633e
+SHA1: 7de3ded09d88caea5c3f94e10a3121455dcfef5d
+SHA256: 91726952676aaa49cd288ef8d9362abf41240d1c45be70a44ad1ff12340282b2
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1056
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Filename: ./debs/Choicy_1.5.3-2_iphoneos-arm64e.deb
+Size: 161596
+MD5sum: 07a98aac48194db8a0ff7efdbef67cf1
+SHA1: d6cb7182e0c852b868bd656603b232326140a92f
+SHA256: 76f891e3bd5f613eb2d468deeb0769119a0d21243b25bbd53237267b6da55fd1
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
 
 Package: com.opa334.crane
 Version: 1.3.17-2
@@ -33,6 +88,24 @@ Description: Multiple containers for your applications!
 Author: opa334
 Name: Crane
 
+Package: com.sini921.appstoretroller
+Version: 0.1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/AppStoreTroller(roothide)_0.1.2-5_iphoneos-arm64e.deb
+Size: 44116
+MD5sum: 86cdef4b22d9154a59a46a3998dd01ef
+SHA1: 37f6009167d887c29d0a009d8aff7f7a208e5a5a
+SHA256: 70ec62b82f63dad029615288589d4b48e62748ef17b2aca09b2a6a291ee529c0
+Section: 越狱插件
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Author: Mineek & Nathan & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
 Package: com.wkk.atria
 Version: 1.4.1-6
 Architecture: iphoneos-arm64e
@@ -49,4 +122,24 @@ Description: 桌面布局各种功能(如桌面图标行列数量自定义功能
 Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support_2.0-29_iphoneos-arm64e.deb
+Size: 270180
+MD5sum: 43ce07e8b68d34c5337908e09da2d97c
+SHA1: 746f0af1b436885ced92c6f9938206542581af07
+SHA256: 867163fdd2feb4aa98ac9011b9fd2403cf33f1af196e01f733060ec5fe38da85
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
