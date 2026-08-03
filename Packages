@@ -15,23 +15,42 @@ Author: 0xkuj
 Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
 Name: FilzaDirProbe
 
-Package: com.dao.ccless
-Version: 2.1.0.1
+Package: com.82flex.unseen
+Version: 0.0.2
 Architecture: iphoneos-arm64e
-Maintainer: 妖刀
+Maintainer: 82flex
+Installed-Size: 484
+Depends: firmware (>= 15.0), preferenceloader
+Filename: ./debs/com.82flex.unseen_0.0.2_iphoneos-arm64e.deb
+Size: 43344
+MD5sum: 1439171511be328b04d9e18bea338e63
+SHA1: 93cc63c17caa6da7f0bce34e244f63cbf01f9455
+SHA256: 266195fc0adc2856c34cb6f9ea0253a02e91a3c8b3288350f38bf4a2f1d13e46
+Section: 去录屏截图检测
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Author: 82flex
+Name: Unseen
+
+Package: com.cydia.love.recordpause-rootless
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 200
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: ./debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
-Size: 498004
-MD5sum: 7f7ca4c529866aef45f2515d548b4c49
-SHA1: aba20b9c7f32a63359a68f0b2df58911d08121ed
-SHA256: 4458cee2b9cf299f2d5632e9351032f6d1ec2ba91d7a806aed8700342003c482
-Section: 控制中心
-Description: 超级控制中心模块集合！
-Author: 妖刀
-Name: CCLess++(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/com.cydia.love.recordpause-rootless_2.0.6_iphoneos-arm64e.deb
+Size: 50628
+MD5sum: 7fc0b838050bac69a0f38cac7713e053
+SHA1: 6dd87fbd29b8370b264e29f5de97d9fdf2f0d013
+SHA256: 4dc711a0794a70e57d138d31f647fc403c81de08bbb18da4c93150b1e3523aed
+Section: 去录屏截图检测
+Description: 模仿iOS18功能，在开启相机录视频的时候左下角增加一个暂停键，非常的好用，从此以后录视频也可以暂停啦！
+Tag: 1
+Author: PoomSmart
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: RecordPause录像暂停
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
 
 Package: com.netskao.filzacrack
 Version: 1.1-9
@@ -87,23 +106,22 @@ Description: 本体：File Manager for iPhone, iPad, iPod Touch. Supports iOS 11
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.wkk.filzaswipeselect
-Version: 0.0.2
+Package: com.yourepo.trollstore.14
+Version: 1.1.0
 Architecture: iphoneos-arm64e
-Maintainer: korboy <korboybeats@gmail.com>
-Installed-Size: 184
+Maintainer: Muirey03 & lclrc <qiaozhani000@163.com>
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wkk.filzaswipeselect_0.0.2_iphoneos-arm64e.deb
-Size: 47596
-MD5sum: a497c8d9c7af653ab0a387439ccc7342
-SHA1: 13f5ff67936f5f3eca83b437becafc7c1126b5b6
-SHA256: 0861928b2293ff669cbaa96571ca10442524ad38cd7e1535a35207a756ce5693
-Section: Filza
-Description: Filza的滑动多选功能。
-Author: korboy <korboybeats@gmail.com>
-Icon: https://sini921.github.io/repo/sileodepiction/icon/filzaswipeselect.png
-Name: FilzaSwipeSelect
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.trollstore.14_1.1.0_iphoneos-arm64e.deb
+Size: 43588
+MD5sum: 2a2a6afb513c07080c1ff87cffd94ce2
+SHA1: 4c13596a641693849c3f999db3e2f15c2ded5319
+SHA256: d49a728937440a877b0148836bc91bdea1c258b702c532a5cad70cfd6b3c3610
+Section: 去录屏截图检测
+Description: 使手机在锁屏状态也可以继续录屏。
+Author: Muirey03 & lclrc <qiaozhani000@163.com>
+Icon: https://axs66.github.io/repo/icon/recordanywhere.png
+Name: 锁屏录屏
 
 Package: roothide.patches.filza
 Version: 0.5-4
