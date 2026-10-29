@@ -138,6 +138,23 @@ Author: 0xkuj
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX
 
+Package: com.0xkuj.safarix
+Version: 1.9.9.1
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
+Size: 371304
+MD5sum: cc62d6fd35b2c401f57995601a5b9925
+SHA1: 712a8e6643560f481c778e40e9bebff8d63cd6cb
+SHA256: 9927c731af1dad134479b5cbb5c6cb34522023ad65333bbdc564da21a09a473b
+Section: 插件
+Description: Safari浏览器增强。
+Author: 0xkuj
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+
 Package: com.82flex.touchvis
 Version: 4.1
 Architecture: iphoneos-arm64e
