@@ -1,0 +1,3054 @@
+Package: apt
+Version: 2.6.0-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 6192
+Pre-Depends: dpkg (>= 1.14.25-8), system-cmds (>= 854.40.2-2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libapt-pkg6.0 (= 2.6.0-2), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils, procursus-keyring
+Conflicts: apt7 (<< 1:0), apt1.4 (<< 1:0), apt1.8, libapt-pkg5.0 (<< 1:0), libapt (<< 1:0), apt-key (<< 1:0)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
+Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (= 1:0), apt-key (= 1:0)
+Filename: ./debs/apt_2.6.0-2_iphoneos-arm64e.deb
+Size: 2960478
+MD5sum: 0e70a43d228f5afb28922a6d6c6f6176
+SHA1: 5906a3f4138b415ce09a91decbc3bd2af95db215
+SHA256: 0d0a9f8d73c7e96adc2f7e6f36b805315f3181bab1d0dea04a558e70891f7d1f
+Section: Packaging
+Priority: required
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+
+Package: apt.cydiakk.backgrounderaction15-rootless
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Installed-Size: 340
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/apt.cydiakk.backgrounderaction15-rootless_0.1.0_iphoneos-arm64e.deb
+Size: 22516
+MD5sum: 50c443ea1a719e724d4ed64dd19ae3a5
+SHA1: 1303147cc62ab0a7f07145436ba5b054c5520631
+SHA256: 2b4d66eb02d3aa16e2c0a974e8416e03da2ce20b139801003e71b1259afe750b
+Section: 真后台
+Description: 点开一个APP，控制中心点击按钮即可
+Author: @akusio_RR
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: CCSupport真后台
+Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
+
+Package: apt.cydiakk.backgrounderaction15autostate-rootless
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Installed-Size: 384
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: apt.cydiakk.backgrounderaction15-rootless, com.opa334.altlist
+Conflicts: byg.iosios.net.backgrounderaction15autostate, byg.iosios.net.backgrounderaction15
+Filename: ./debs/apt.cydiakk.backgrounderaction15autostate-rootless_1.0.3_iphoneos-arm64e.deb
+Size: 41356
+MD5sum: d3dadc5f1f46b4ec9e6cfe2324cc45ea
+SHA1: 8745505389adc4345b3855bf491658e890c828a6
+SHA256: 5df17c1eeb4a6b6d8c7020d948383692b0a61a6c1181b8de4379cfcfe3673ee8
+Section: 真后台
+Description: 一款自动真后台插件，配合里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！
+Author: 0xkuj
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: AutoState自动真后台
+Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
+
+Package: base
+Version: 1-6
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 12
+Depends: roothide (>= 0.0.9)
+Filename: ./debs/base_1-6_iphoneos-arm64e.deb
+Size: 4962
+MD5sum: 58caf097c7601cb9f52f20a019e5dc90
+SHA1: 86129b47f29c0c8d2f50b3deda04076f2aa58852
+SHA256: cb9872132f1b999ec5f2cdf93b449081299f3e21740b0bfca4790012f58742c3
+Section: System
+Priority: required
+Description: underlying system directory structure
+
+Package: bash
+Version: 5.2.15
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 3828
+Pre-Depends: dash (>= 0.5.11.3-1), libreadline8 (>= 8.2), profile.d (>= 0-5), debianutils (>= 4.11.2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), grep, libncursesw6, libreadline8 (>= 8.2), sed, debianutils (>= 4.11.2)
+Filename: ./debs/bash_5.2.15_iphoneos-arm64e.deb
+Size: 913552
+MD5sum: 8b8bbc09e2b12a649a2d8a281c0de9bc
+SHA1: b904c3480be8fd7ad0839ea451140fdf12ada5b7
+SHA256: 270470ddb8dbb2ce395d0133fe8bac72c504b9c3c02cbe0fb26b3b2c231b8409
+Section: Terminal_Support
+Priority: optional
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+
+Package: ca-certificates
+Version: 20231210
+Architecture: all
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 220
+Depends: roothide (>= 0.0.9)
+Filename: ./debs/ca-certificates_20231210_all.deb
+Size: 172094
+MD5sum: c54d5def8f95ccf2f3c6422f6617532b
+SHA1: 58d2dda6371069fe6f86a074cf41988992f205ab
+SHA256: 6febf8c3672bd2161ae10255201fa8eaf22a46ab83a17caf2eff0a7e38a2a7c5
+Section: Utilities
+Priority: optional
+Multi-Arch: foreign
+Description: Common CA certificates
+ Contains the certificate authorities shipped with Mozilla's browser to allow SSL-based applications to check for the authenticity of SSL connections.
+ .
+ Please note that Procursus can neither confirm nor deny whether the certificate authorities whose certificates are included in this package have in any way been audited for trustworthiness or RFC 3647 compliance. Full responsibility to assess them belongs to the local system administrator.
+
+Package: ch.xxtou.xxtouch
+Version: 5.4.5
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 61608
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/ch.xxtou.xxtouch_5.4.5_iphoneos-arm64e.deb
+Size: 35238394
+MD5sum: 33398c1dc75eca5228ecd8fe1bae97f0
+SHA1: 862cd7967929ddb21c5accf4c6435f13fedf8d43
+SHA256: 3f54a8901340acf566a1b5b8715bd323a4b049c084aab3f0908685673594f994
+Section: Tweaks
+Description: XXTouch is a powerful and flexible automation tool for iOS.
+Author: 82Flex <82flex@gmail.com>
+Name: XXTouch Elite
+
+Package: chariz-keyring
+Version: 2021.07.18
+Architecture: all
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 4
+Depends: roothide (>= 0.0.9)
+Conflicts: procursus-keyring (<< 2020.05.09-1)
+Replaces: procursus-keyring (<< 2020.05.09-1)
+Filename: ./debs/chariz-keyring_2021.07.18_all.deb
+Size: 3648
+MD5sum: 0999ee62ad42c0657fc3999658507aff
+SHA1: 00718e69af7ade0036d53f078c5771666afaabc1
+SHA256: 9a4c01bca5b556c22b50858c48e2d5ef481ed2b21e0b331ce2ba8a37cc9eae13
+Section: Keyrings
+Priority: optional
+Description: GnuPG keys for the Chariz repository
+
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 3366792
+MD5sum: 1e3e33f2a06cf695a5f0554597dbbc77
+SHA1: 99a30d4358d1e34c5e26196adb57e58101fec706
+SHA256: 2c1b38690280af5195dda80c416c6fb1f35dc399c0f45580fa6accc6869ef1df
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 4997014
+MD5sum: 79683817ea5c21b6ff669b00348b7d7c
+SHA1: 8138ea761339bdd88e6a093a7f53a03b05f46812
+SHA256: bed6819671ce413890f6ee3a27d311f3c03f22c4b3cea75a71fd6e684215b5ce
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
+Size: 3694012
+MD5sum: 8553c31897b5c5019d58bcbbeb06db93
+SHA1: c9362d4d644d707ef810c40e250860202ee23f6d
+SHA256: 750f4c00e8821f343582d09e8684fd8c12f468662b6d270af50d920f979b4bfe
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.zqbb.hello.dynamiclandbye
+Version: 2.2.0
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.hello.dynamiclandbye_2.2.0_iphoneos-arm64e.deb
+Size: 116206
+MD5sum: c1ec44042bfc06c30214d0adb09e4b32
+SHA1: aad47f954a34cc19e107219fc07cc7fcfac0a170
+SHA256: a27b26b49a4d87436073c7c50bb73dd7aba49115711e3056b5d92753ada6eb2e
+Section: zqbb Tweaks
+Description: 灵动岛,拜拜了您嘞!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.dynamiclandbye
+Name: Hello 迷失岛
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.dynamiclandbye
+
+Package: cn.zqbb.hello.keyboard.ai
+Version: 6.6.6-3
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: ./debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 5628164
+MD5sum: f99fd7d3e01831384384bd65f608cd81
+SHA1: ff50c3023b437dee44573a0ab53315fcbd031a0d
+SHA256: 31da88515ffaaf4674b4af6b3f9165e776a150f8970e0733465f3273c1bbd5e5
+Section: zqbb Tweaks
+Description: Quickly activate AI mode.
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+Name: Hello 键盘侠 (roothide)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.stopautolaunchapps
+Version: 2.5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: ./debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
+Size: 485578
+MD5sum: 0618e15afcf3de5a81cb6464b1996229
+SHA1: bd460889fc2f0ae8a501c5127c4bf39667353621
+SHA256: dbe13311d192cd5993c539b05b43b6b6e7db832d3c7b4153fd00032d514573d3
+Section: zqbb Tweaks
+Description: 别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: com.0xkuj.filzadirprobe
+Version: 1.7.2
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 240
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: ./debs/com.0xkuj.filzadirprobe_1.7.2_iphoneos-arm64e.deb
+Size: 157482
+MD5sum: 0c82d4886a2a41399e1191773545f338
+SHA1: c8653f545490125b21baca039f23264c017ec551
+SHA256: 6f4b8ac7fa65994710c668541296d2bc971249a210a8a9b5d76ae1a9e76e40f8
+Section: Filza
+Description: 计算Filza里文件夹大小。
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Name: FilzaDirProbe
+
+Package: com.0xkuj.safarix
+Version: 1.9.9.1
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.9.9.1_iphoneos-arm64e.deb
+Size: 468602
+MD5sum: dfb181b0bba0c6da3a1a26f2136c0175
+SHA1: 1b56dd40f883da4977f1e32820b181ac639f3488
+SHA256: 27d8c6ba5ebf1be8e81fde4054860641c939448ca8e7261f0737522d17d0a71f
+Section: 插件
+Description: Safari浏览器增强。
+Author: 0xkuj
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+
+Package: com.82flex.touchvis
+Version: 4.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 4416
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.82flex.touchvis_4.1.1_iphoneos-arm64e.deb
+Size: 1990038
+MD5sum: b9213c5d01824bbefecf12103d0c1b71
+SHA1: ffa7421ce05829614153de3d8bafd27a12b701d8
+SHA256: b2c624a6a397940247caa3932ff4c6f1cd3fc332bce462556c7b0f6301af3ba5
+Section: Tweaks
+Description: Display your touch interactions!
+Author: Lessica <82flex@gmail.com>
+Name: Touch-Viz
+
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 2692
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1527194
+MD5sum: 502956668263c6dd770b71e48d1bb8a5
+SHA1: 9de697a33bcf3064573a2be59936f01ee636e507
+SHA256: c801b909f1e9fb68204e882c0aab049a800d36642a9cc21bcf39040be338f9cd
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+Name: floatingView
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+
+Package: com.be-huge.insulation
+Version: 0.1.38.1
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 125470
+MD5sum: 1cfa599e76953ebaf36a9288a958a9b6
+SHA1: 41d6229089ca26a3afbf65f1fa534e15b670e43d
+SHA256: 98e327a171ecb65d3feb38317a16f9506dfbb1175f77df6e812f3b0340e4fd9c
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Author: be-huge & doimty
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: insulation
+
+Package: com.cannathea.afc2d-arm64e
+Version: 1.1.7-21
+Architecture: iphoneos-arm64e
+Maintainer: Cannathea <csupport@cannathea.com>
+Installed-Size: 212
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0), ldid | firmware (>= 15.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.cannathea.afc2d-arm64e_1.1.7-21_iphoneos-arm64e.deb
+Size: 22572
+MD5sum: dc5b22d10fd93948119c0c4f60b3a952
+SHA1: 8df3eb24d31d149faba260b7696d9f8a100b300a
+SHA256: cad8b146a0e43ffb65b843b23bef8f886ab04ca531532472740e85174b23d682
+Section: 允许通过USB完全访问iPhone
+Homepage: https://cannathea.com/
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on RootHide. by Shadow-
+Tag: purpose::daemon, role::enduser
+Author: saurik, Cannathea, i_82, Shadow-
+Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
+Name: Apple File Conduit "2" (RootHide)
+
+Package: com.crctdd.stayalivelite
+Version: 0.3.8
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 948
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.3.8_iphoneos-arm64e.deb
+Size: 360430
+MD5sum: 9f6a260c5afdd59d8d86367327f145ba
+SHA1: 046a4a8390db3461e4c4fb494c8db9e6d458f352
+SHA256: d69c8c14a2d9b6d8142a19ec42501d3bf26e411d8a5e23e5fb658fd81c6c66ea
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Name: StayAlive Lite
+
+Package: com.dao.ccless
+Version: 2.1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: ./debs/com.dao.ccless_2.1.0.1_iphoneos-arm64e.deb
+Size: 871288
+MD5sum: 22774ca2bee8c09c61f8cf9868788fe1
+SHA1: ecd2d1d13214921273cf0cf1874015c079d686a7
+SHA256: 71ca457d9fb66bbf4aa4ac0ec32ae5287e594b26bfce829b1819fa9233cf4741
+Section: 嗨-工具
+Description: 超级控制中心模块集合！
+Author: 妖刀
+Name: CCLess++(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.dao.pulloverx
+Version: 2.2.9
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: ./debs/com.dao.pulloverx_2.2.9_iphoneos-arm64e.deb
+Size: 316360
+MD5sum: d1cfe999b79c669f1112cd1c8fc2641a
+SHA1: 2fe893cdfe5ffd60124724d8ff973824f77cf3f7
+SHA256: 7cc5415100cf447649cef336199c79c212030a575ece3c316c57199277370852
+Section: 嗨-工具
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Author: mlgm
+Name: PullOverX(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/pulloverx/js.json
+
+Package: com.flex2areo.appprotect
+Version: 2.4.7
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 2648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Filename: ./debs/com.flex2areo.appprotect_2.4.7_iphoneos-arm64e.deb
+Size: 1429836
+MD5sum: d5add1d6c9956889cd52f2b35334bc03
+SHA1: 47e9a57a6b9023279fd2f85c08af3dffce6b483a
+SHA256: 176f85b1c07d1cd9ac2b2724cc63b086f93e2a67b0e5c0a04fd2970d1e7e4077
+Section: Tweaks
+Description: App 隐私保护
+Author: aReo
+Name: AppProtect(Roothide)
+
+Package: com.flex2areo.apptools15roothide
+Version: 2.9.0
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 5520
+Depends: mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools15roothide_2.9.0_iphoneos-arm64e.deb
+Size: 3659908
+MD5sum: c433b09a93ed0018df5b099b9ef27f3e
+SHA1: 1df96ddd7b9f394ccfc0ad67ec224aec1d06326e
+SHA256: 027a2277056e109b04a208af352c4971681e97665ea62949992442d0141c4c22
+Section: Tweaks
+Description: AppTools for iOS15-17 Roothide
+Author: aReo
+Name: AppTools15-17(Roothide)
+
+Package: com.foxfort.krashkop
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: FoxfortMobile
+Installed-Size: 428
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.foxfort.krashkop_1.0.2_iphoneos-arm64e.deb
+Size: 252828
+MD5sum: c95ae50a17f0fa24808f6ad1e4f253b9
+SHA1: 5d9b91f1b8cb3d34c9cfdbf10cd54103bc8112e7
+SHA256: c4a698f6677afb0852727b84461b10bb20b75b0a1572f5579c932b4c7254aa21
+Section: Tweaks
+Description: Lightweight crash reporter
+Author: FoxfortMobile
+Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
+Name: KrashKop
+
+Package: com.iosdump.jumpselect
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 612
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+Size: 211560
+MD5sum: cf5f47e03240f42f0639512e333179ef
+SHA1: f648c28ee6378150c08e755f6b9194074266d029
+SHA256: e436c09ed4cc748dddd64e092dc05e7f81e324a8a901d6621f3df47b46c7b9ac
+Section: Tweaks
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.memorycontrol
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64e.deb
+Size: 192914
+MD5sum: f0959dbd97b20622413e94f547c44f62
+SHA1: fe5d31ddcd2900451d8fce55db273be79ab072a5
+SHA256: db9d6b5f3ab84b33f02f218e60a0928ba2f9e5aab686a8f09d816068108c040a
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.korboy.filzaenhanced
+Version: 1.0.7.4
+Architecture: iphoneos-arm64e
+Maintainer: Korboy <korboybeats@gmail.com>
+Installed-Size: 109152
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
+Filename: ./debs/com.korboy.filzaenhanced_1.0.7.4_iphoneos-arm64e.deb
+Size: 49716804
+MD5sum: b9fa12eb46d6a50a62e675fed5e70468
+SHA1: 7d5c6ec52b211aaa11fb41a30b7babbc5973a962
+SHA256: b765f84e8cdfd55c33acc25da29521386a18a44d0fdf41544553787a1ba93e68
+Section: Tweaks
+Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
+Author: Korboy <korboybeats@gmail.com>
+Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
+Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
+Name: FilzaEnhanced
+Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
+Summary: All-in-One Filza Enhancements
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 1964154
+MD5sum: 797444b51430ccec9e3cfb0e6dca6b25
+SHA1: 530a9e646689c4bb0c8bcf660f87897330b2ab4f
+SHA256: 8f424411656c73845823a87f997103be3212b6b6e580cdd4a7d9ffd629a48cd3
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Name: Hammer It
+
+Package: com.lclrc.recordanywhere
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03 & lclrc
+Depends: mobilesubstrate
+Filename: ./debs/com.lclrc.recordanywhere_1.1.0-1_iphoneos-arm64e.deb
+Size: 1316
+MD5sum: 845ac59a2217db190512ee3e02485f01
+SHA1: 0a8725955184e365c8b30e8331f78d8749628fec
+SHA256: 9be13c8052d6b55fbe9f5db1fbeedec6c2213828878785c9ad04286aed0f0305
+Section: Tweaks
+Description: enable screen recorder always work even on lock screen
+Author: Muirey03 & lclrc
+Name: RecordAnywhere
+
+Package: com.lenglengyu.libsupervipp-rootless
+Version: 3.0.5
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 284
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.lenglengyu.libsupervipp-rootless_3.0.5_iphoneos-arm64e.deb
+Size: 122284
+MD5sum: 487b4ffed9d6149d6baef22c9201f690
+SHA1: dc34606775a482abd617acbbcf3361814837326e
+SHA256: 206faadf3bbf910fbb80f8be067699b8110a58a393a5fcb8037bd686056652f8
+Section: Fugu15
+Description: 本源插件依赖。
+Author: lenglengyu
+Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
+Name: libllylly-Rootless【会员依赖】
+Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
+
+Package: com.lenglengyu.wymusicpro-rootless
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 972
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
+Filename: ./debs/com.lenglengyu.wymusicpro-rootless_2.0.4_iphoneos-arm64e.deb
+Size: 501878
+MD5sum: 9ba8a829e96ccfd610e2a9b695e4a105
+SHA1: 1bc0e218cfd3c2c5f0769c315f1a05db856f288e
+SHA256: a3de314a0fc68171bc779b0478a6504ccb2c674d4dfcf553b46e2027e04b9b30
+Section: Fugu15
+Description: 解锁会员权限，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/wymusicpro.html
+Name: 网易云音乐-Rootless【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/wymusicprosileo
+
+Package: com.m4fn3.k2gecamen
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: mafu
+Installed-Size: 8928
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.m4fn3.k2gecamen_1.1.0_iphoneos-arm64e.deb
+Size: 5351490
+MD5sum: ae7f54bc1f9c1c08e6f4e818b45cf588
+SHA1: c931ef496b918a6adc6aa26f1e87b67e437aecb6
+SHA256: 741e35f70182b9a02da8a3ea0bf4fd44827d8492e059ba566bb6b134399f10f0
+Section: Tweaks
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Name: K2gecamen
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Installed-Size: 380
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e.deb
+Size: 123690
+MD5sum: b67d3b52851bc3870000dda8bdafcab4
+SHA1: 09080e5dd8a3fdfdf2f32c2d4eec46bbd3719355
+SHA256: dec58579a345bc53af0c4d6744229a8303358aaa5a63b164c3004f741305c3fc
+Section: 插件依赖
+Description: 有些插件需要这个依赖（通过RootHide Patcher转换）
+Tag: role::developer
+Author: MrGcGamer
+Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
+Name: LibGcUniversal(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libgcuniversal/js.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 45064
+MD5sum: 7e3cdf0be90cbae9b4ca08909a9c0dcc
+SHA1: a88e502e738cd3d7b455b9e557e166f60d95cf66
+SHA256: 350d4260cebbd4fe6b4f26b4dbe58f26d7e83bfc4975e68fa1b1996a6fe92ef4
+Section: Filza
+Description: 本体：Filza Crack
+Author: Netskao
+Name: Filza Crack-roothide
+
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>= 7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 59204
+MD5sum: 6080390905fb776c2860c0f6a24a708a
+SHA1: 3a0381dd24257a2c1771134f1887507abea703da
+SHA256: a2248497657f1fceacd87e31fdd9a511d5450621f0518b6897c6c44d64262b3a
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.ccsupport
+Version: 1.3.13-2-15+debug
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 716
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.13-2-15_2Bdebug_iphoneos-arm64e.deb
+Size: 176868
+MD5sum: f195913af4078c09da8a5d1a01de7ee0
+SHA1: b733aed50ef263860d8c26d9a504cbb1135ddcfa
+SHA256: 317c9ac58e060b81eaa2bcac2db1651ad17d4c9addc0bd6b3ec8c2b602ffb214
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.choicy
+Version: 1.5.3-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1056
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.5.3-2_iphoneos-arm64e.deb
+Size: 347734
+MD5sum: 2a007e6dafd5b5b89afc1f2618113214
+SHA1: f3ab8733f9f36f688328f31ec17404674bb1a4d6
+SHA256: a80092556d048d7d56d3f27a833122014ee8621eda3c231951938e6383514780
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
+Package: com.opa334.crane
+Version: 1.3.17-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3252
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy (>= 1.1.6), com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_1.3.17-2_iphoneos-arm64e.deb
+Size: 1253774
+MD5sum: 312ffc0c7f76308c806f3a9f115ef43e
+SHA1: 92a2790ac2ccecfb37e2e1429ffa9439bd68acf1
+SHA256: d4b3174cd584c9a67bf919b4b212ebf12e6ed813d344b438f8e1cbf3649a0e13
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 468
+Filename: ./debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64e.deb
+Size: 46036
+MD5sum: 32b17168debfa8dd17e116f37830a4a0
+SHA1: a8021ec9c69ae7afed25ba7efe370ecfdcfd5d61
+SHA256: 929262437226bea5aaaf99052f4b1f7ed34f74c65dc518ede9394fe5af5613f6
+Section: System
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
+Package: com.opa334.libundirect
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 168
+Filename: ./debs/com.opa334.libundirect_1.1.6_iphoneos-arm64e.deb
+Size: 14676
+MD5sum: 21e523d1343bf518307d4ab52159e6e5
+SHA1: fa4072fd1627e7f5415e55de43490d51314096d9
+SHA256: 3b3472b4b29257ff348b8811c3bcd94e86e81a0b4d44cc9410cc5e716807d34f
+Section: System
+Description: Patchfinder and rebinder for objc_direct methods
+Tag: role::developer
+Author: opa334
+Name: libundirect
+
+Package: com.ps.recordpauses
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Filename: ./debs/com.ps.recordpauses_2.0.3_iphoneos-arm64e.deb
+Size: 21548
+MD5sum: 6775c027258ed7455239e397b66dafdb
+SHA1: cb053a0abc30b4c4d7b83cc52853ccbb1897c9b4
+SHA256: d1ce31b381de110cf37d025201721118d2486d5deaa0459228c83e38690491ac
+Section: Tweaks
+Description: 录像暂停 Pause/resume video recording in iOS Camera app.
+Author: PoomSmart
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
+Name: 录像暂停 RecordPause
+
+Package: com.roothide.lockdown
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.roothide.lockdown_2.0_iphoneos-arm64e.deb
+Size: 11554
+MD5sum: 09c837941c63a18e2956c1ab3693e4e7
+SHA1: bba797ff5db90d7add23fc7a9ac44774f0c0014c
+SHA256: f029f6c6d9a8e3fa608c7ea3007aab04b59c51ff134c4d63568035c6cb9df6d9
+Section: Tweaks
+Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
+Author: roothide
+Name: lockdown
+
+Package: com.roothide.manager
+Version: 1.3.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 1108
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.roothide.manager_1.3.9_iphoneos-arm64e.deb
+Size: 870340
+MD5sum: 907fbcc28f66bf5e204280c9b28a4ea1
+SHA1: c9fff791e53e90c871b565b3541ad4a7404c9646
+SHA256: f60fa7259eaf2d398fac53436a7fcfd353058ccbf1d5dda2eaa0ab2f636ef448
+Section: System
+Description: Configuare RootHide's Features
+Author: roothide
+Depiction: https://github.com/roothide/RootHideManagerApp
+Name: RootHide Manager
+Support: https://github.com/roothide/RootHideManagerApp
+
+Package: com.roothide.patcher
+Version: 2.1.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 4124
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
+Filename: ./debs/com.roothide.patcher_2.1.4-1_2Bdebug_iphoneos-arm64e.deb
+Size: 2823232
+MD5sum: 2c5ecda87062990e5ee895f813859c01
+SHA1: 859c71418927b1bfb34d0469ad854b96610c00e5
+SHA256: 0f025d6dd573ae1286fb5395282f0191727af7395f7d4e64e4adbfc65370d9fc
+Section: Utilities
+Description: patch rootless package to roothide, not work for all packages.
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
+Package: com.roothide.patchloader
+Version: 0.0.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 132
+Filename: ./debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
+Size: 8408
+MD5sum: 07bc25cb0e07bfcca736dc44e106df5d
+SHA1: e2d21b73b2814e26e0f5edf413f93994e5c82ad2
+SHA256: 490378701c63139e95b161cec852eb25269144b621cc4345e34e07bf635c4a69
+Section: System
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Author: roothide
+Name: PatchLoader
+
+Package: com.sini921.appstoretroller
+Version: 0.1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.appstoretroller_0.1.2-5_iphoneos-arm64e.deb
+Size: 96930
+MD5sum: 51ec921754b72808b6420e747bf4ba44
+SHA1: 7c00ee893ae8f8794408a333a4f7af25497f9350
+SHA256: 1af49df590c09d4d4c862e2b6417e764a6a938e96d59de66a2ed382fbd732ac6
+Section: 越狱插件
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Author: Mineek & Nathan & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
+Package: com.sini921.disabledwarning
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.disabledwarning_0.0.1-2_iphoneos-arm64e.deb
+Size: 7460
+MD5sum: ad6065c65504b0590d0efa8bd2c71254
+SHA1: eda0730183f31b6abd90adc0f89a5bcc257a5db4
+SHA256: 97c2cd622c3a4903065096ba255f93cb330560089d18adb757bbc80f42a2b6eb
+Section: 越狱插件
+Description: RootHide(黑名单)与RootHideInject(白名单)每次打开都让我卸载openssh，卸载是不可能卸载的，所以去掉这个警告弹窗
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/disabledwarning.png
+Name: DisabledWarning(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/disabledwarning/js.json
+
+Package: com.sini921.folderpro
+Version: 0.0.1-39
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 1524
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.folderpro_0.0.1-39_iphoneos-arm64e.deb
+Size: 1108712
+MD5sum: f91bb9300a4a6adaa1cdf5a6cb0463fb
+SHA1: 6145e125472f0e5715cd4b042556d7b85c80f808
+SHA256: a8830b76162441925b8a032a2077592b87fbff5e1b00dc83b77695a08ea14e3a
+Section: 任务界面
+Description: 后台ipad网格切换界面，图标下载进度百分比，桌面文件夹布局各种功能(只有桌面文件夹里4*4等各种功能，没有桌面图标行列数量自定义功能，此功能用atria)。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
+Name: FolderPro(roothide)
+
+Package: com.sini921.lockscreenhelper
+Version: 0.0.1-19
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 732
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/com.sini921.lockscreenhelper_0.0.1-19_iphoneos-arm64e.deb
+Size: 187958
+MD5sum: 96112eb59056d837554e5abe207e0026
+SHA1: 5908ce6f25464a8a5258ef7be8b65fe58f1e5dcb
+SHA256: f95c438da1b519364cd77393912e701fb2d310cb1f601f661918c6c67e91df06
+Section: 越狱插件
+Description: 锁屏界面相关的简单优化
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
+Name: LockScreenHelper(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
+
+Package: com.sini921.morecomplications
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Skitty & SINI
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: ./debs/com.sini921.morecomplications_1.0-1_iphoneos-arm64e.deb
+Size: 36036
+MD5sum: 888721a1891a078254d702691ad9f15e
+SHA1: 4e8445b2af7dc5ab96b74c87f2d91fc8fee6366e
+SHA256: 452b04d4889a3d11cdb75ca7c2118850398594b5f0cab517a5793644270823b3
+Section: 越狱插件
+Description: 添加更多的锁屏小组件，基于开源重新编译，直接适配roothide。
+Author: Skitty & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/morecomplications.png
+Name: MoreComplications(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/morecomplications/js.json
+
+Package: com.susudear.stayshot
+Version: 0.5.5
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 2340
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Filename: ./debs/com.susudear.stayshot_0.5.5_iphoneos-arm64e.deb
+Size: 516532
+MD5sum: ba76ccd2fae2611e5447af54c5b204b4
+SHA1: bc852eabb0da8bef0bf48dfaa989c15d56b300af
+SHA256: 0cae617b8eab4c29199e56117f871e4633c3fe69b46db91d6631b1fd2d5b905f
+Section: Tweaks
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot
+Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
+
+Package: com.susudear.stayshot.long-screenshot
+Version: 1.5.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 784
+Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
+Filename: ./debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64e.deb
+Size: 373976
+MD5sum: 6b6f80ecc9dfbbb3ee107a5a703c60bf
+SHA1: 51bcba5d72af4b659bc9b1bcdb633b3c61d5d602
+SHA256: 55f214b44d5c82d5ae98b86ae62e34610f7b1bf3fa8548379eb2c525ef442902
+Section: Tweaks
+Description: Long screenshot action and capture controller for StayShot.
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Long Screenshot
+
+Package: com.susudear.stayshot.markup
+Version: 1.6.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 640
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Filename: ./debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64e.deb
+Size: 269436
+MD5sum: badcb63ebef5ae4cc53bf905e65e5c1c
+SHA1: 10d7c2b8992a8d6a79ffafcc03c76d12b5319aaf
+SHA256: 02893362a465c70dac21d5963914afc7ea0d63141c254541813c1272e8610efd
+Section: Tweaks
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Edit
+Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_4.0.1-4_7Eroothide_iphoneos-arm64e.deb
+Size: 11073846
+MD5sum: 221bcb72995a8e1a8c267888feda0db8
+SHA1: 43ec9c1c534537caec41a44bdd67e354d0fa0871
+SHA256: c909b21c5381f8e66ca65546af6f9c8f6b7ec04f8b7b7a19c7d7b53006766559
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.udevs.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 2068
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 942518
+MD5sum: 1c426e9db27509fae20b0b1367b4c20d
+SHA1: 10f99c14b45e813e4569d76ee78f34046d2aa94f
+SHA256: 4c40c39e39845682bc53d38ff00642357f2e43d6d2f79168d89254aa4f3c6361
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.wkk.choicyconfigpin
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Filename: ./debs/com.wkk.choicyconfigpin_1.0-2_iphoneos-arm64e.deb
+Size: 13326
+MD5sum: a05ba826410f95f6c91423dbbf8272c5
+SHA1: 6340978025237408990d0020e4e65ca22270d541
+SHA256: 18defa4da0ecd86f5326a2a4a174121d9dad59fd2caf80f7bd2969eba37c793a
+Section: Tweaks
+Description: 在下次打开Choicy时将已调整的 App/Process置顶到Section最顶部（本来想重新编译个Choicy最后想想还是直接hook方便）
+Author: huami
+Icon: https://s1.imagehub.cc/images/2026/02/08/1238dc10ad390a948b0c6ac8c669c698.png
+Name: ChoicyConfigPin
+
+Package: com.wkk.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/com.wkk.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 1719802
+MD5sum: f7ba71495e91ead317e1f2b871edd4c2
+SHA1: ec952b63753ba0a4c53ab5eb25bfd091255ba7ea
+SHA256: 13326595707eee4f4bfb58e03c1c299fca766292bceb168699319d7b469361d8
+Section: 应用程序
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文。
+Author: Ivano Bilenchi
+Icon: https://s1.imagehub.cc/images/2025/01/01/3c86578830a5a4b2897f2780576e07a9.jpeg
+Name: iCleaner Pro
+
+Package: com.wkk.immortalizer
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: sergy & daodao
+Installed-Size: 660
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.sergy.immortalizer
+Filename: ./debs/com.wkk.immortalizer_2.0.1_iphoneos-arm64e.deb
+Size: 108010
+MD5sum: 5cff970313ec1388d170fad8bea0293e
+SHA1: 2923dbea89f93d50916070bb8fe711d94e65246d
+SHA256: 786ad0a25d4abb97b99cdec7d76668ec35e2c137ad8c47addf9118c65fec675a
+Section: Tweaks
+Description: 可将应用置于前台，达到真后台效果，应用图标长按菜单 —— 开启/禁用「真后台」CC模块控制，需先打开要控制的app，然后控制中心点击模块即可。
+Author: sergy
+Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
+Name: Immortalizer
+
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
+Size: 437302
+MD5sum: 61610edf02d99241b6d1572a3b9790b5
+SHA1: 0ff7007127032342f3dd9f352236be06ed9f64fd
+SHA256: 04a9ec8bd4a3129fb6be497c72fdb4691cdcd393ec7ad1674c8ab102f8c321b3
+Section: Tweaks
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
+
+Package: com.wkk.pogrs
+Version: 0.5.3
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 480
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: ./debs/com.wkk.pogrs_0.5.3_iphoneos-arm64e.deb
+Size: 122832
+MD5sum: bdbbf6849d620e909b049395446f2ac5
+SHA1: 436242b538d2cfa7b469fd91d460b0070026daad
+SHA256: 8cb636a765d30f43fde41fda16ba45a7d2ff061d973d3883aa4f3a351ac0f43e
+Section: Tweaks
+Description: 提高低系统与新 AirPods 兼容性。
+Author: Ruphane
+Icon: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/icon.png
+Name: AirPods PodsGrant
+
+Package: com.wkk.quickprefs
+Version: 1.3.3-1
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.wkk.quickprefs_1.3.3-1_iphoneos-arm64e.deb
+Size: 651316
+MD5sum: e60176f6866ecfa8e21f9e9220db32e3
+SHA1: 6322d9cf162fac21fb75ba69fadc8b85285af03a
+SHA256: ef778b175fdbd3622d0d46516edc3d54cf6e3d365d1d3210e8304978911162ba
+Section: Tweaks
+Description: 设置里的项目抓取，已汉化，上架备份。
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
+Name: QuickPrefs
+
+Package: com.wkk.sblockhook
+Version: 1.0-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.wkk.sblockhook_1.0-3_iphoneos-arm64e.deb
+Size: 8452
+MD5sum: 54e96c405df3127ea7034c54c4e1f889
+SHA1: 31f70d860b29e9575c5f1212ca8cd0bf95fb11a2
+SHA256: 0f7f91a0bd45f1a532cc876d8517b846626166de6124e1d3280086d2043dc9e0
+Section: 快捷开关手电筒
+Description: 长按锁屏键手机电筒(息屏才触发)
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: 长按锁屏呼出手电筒
+
+Package: com.wkk.systembox
+Version: 1.5-8end
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 2792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.clockglass
+Filename: ./debs/com.wkk.systembox_1.5-8end_iphoneos-arm64e.deb
+Size: 1318374
+MD5sum: 35fa887d8909b55407d0ba38cfeb73c0
+SHA1: 38b7da6e09d0fa92f14725b7b0565825f66cb75c
+SHA256: d085e6814eb04fe3f51f0b447cddba8324ec7c18ffa357e1f984b04141ebffcd
+Section: Tweaks
+Description: cool
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SystemX
+
+Package: com.wkk.tweaktool
+Version: 2.0.0-beta
+Architecture: iphoneos-arm64e
+Maintainer: iZJ
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
+Size: 16068
+MD5sum: c93cc04ab617d3466968f5fedb1d4c00
+SHA1: e6805e963fe2c142a8933eb0e06ddc22b6e6b514
+SHA256: 05b21cc85247c027fdf23de184820f20a3a22491d29316c50dbcba3394f5bdcd
+Section: #配置插件备份工具
+Description: 使用方法：进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。注意：它是备份至 .jb 目录下，清除越狱之前一定要复制一份到非越狱 .jb 目录下，源主之前忘记复制越狱给清除了，折腾了两周才完全搞好🥲。
+Author: 预言小猫
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 一键备份和恢复工具
+
+Package: com.wkk.wtvrbglauncher
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: Lessica
+Installed-Size: 372
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.wtvrbglauncher_1.2_iphoneos-arm64e.deb
+Size: 38780
+MD5sum: 684389edda7bd10b13b2a61163d9012b
+SHA1: ada7e3e29f2978866096fd9ba357a2ab283e4e84
+SHA256: a7c304f99c8bc2d83f8aed8bd212d9d37dd5b0dcb50c533e2bbf7dfddcf19e93
+Section: Tweaks
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞。
+Author: Lessica
+Icon: https://s1.imagehub.cc/images/2025/12/26/f6e5793d6cf9b9e667f56142f4b87e9b.png
+Name: 语音转文字免跳转
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Version: 2.8.2
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/com.xybp888.callassist16.dopamine.roothide_2.8.2_iphoneos-arm64e.deb
+Size: 7368968
+MD5sum: 23f64d69fb286980ab4969d511501e9a
+SHA1: fed15d2490fcf8f2880306236d9d8844b05df1e9
+SHA256: a10c3110397e1ec83cb3bee035443b2ac2c9f0d47fa2f1519474302299090b73
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Depiction: https://apt.htv123.com/view/867
+Name: 电话助手iOS16-正式版(Roothide)
+Sileodepiction: https://apt.htv123.com/sileo/867
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: ./debs/com.xybp888.perfectdynamiclsland.roothide_1.4.0_iphoneos-arm64e.deb
+Size: 1814604
+MD5sum: 602eae26b55412b970769ca7fe51cce4
+SHA1: 677634f1cb1a95cc0862b3f55b16a27779b06a2b
+SHA256: 656cdd6e82fa0f7e19c3b8de49a8233f50f9bc94a01b2e7ae4e8aaf73d15d9df
+Section: System
+Priority: optional
+Description: 完美的使用原生灵动岛展示系统通知等...
+Author: xybp888
+Depiction: https://apt.htv123.com/view/999
+Name: 灵动通知iOS16-正式版(RootHide)
+Sileodepiction: https://apt.htv123.com/sileo/999
+
+Package: coreutils
+Version: 9.3-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 24668
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), sh, profile.d, libssl3, libintl8 (>= 0.20.0), libgmp10, libcrypt2
+Conflicts: coreutils-bin (<< 1:0), shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1), system-cmds (<< 854.40.2-3)
+Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
+Provides: md5sum, sha1sum, coreutils-bin (= 9.3-1), dirname, kill, mktemp, su
+Filename: ./debs/coreutils_9.3-1_iphoneos-arm64e.deb
+Size: 10733342
+MD5sum: c9a7a45c009900cd8a75ec744f510319
+SHA1: 575e98a286808d6948b2da948ff00f0820d9d151
+SHA256: daa6982f77d6ec4153929902cc77e835dd9d4210542423ab551bfd864f353456
+Section: Utilities
+Priority: standard
+Homepage: http://www.gnu.org/software/coreutils/
+Description: GNU core utilities
+ This package contains the basic file, shell and text manipulation
+ utilities which are expected to exist on every operating system.
+ .
+ Specifically, this package includes:
+ arch base64 basename cat chcon chgrp chmod chown chroot cksum comm cp
+ csplit cut date dd df dir dircolors dirname du echo env expand expr
+ factor false flock fmt fold groups head hostid id install join link ln
+ logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc numfmt
+ od paste pathchk pinky pr printenv printf ptx pwd readlink realpath rm
+ rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac
+ tail tee test timeout touch tr true truncate tsort tty uname unexpand
+ uniq unlink users vdir wc who whoami yes
+
+Package: darwintools
+Version: 1.6
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 164
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), grep, coreutils (>= 8.32-12)
+Recommends: uikittools (>= 2.0.0)
+Filename: ./debs/darwintools_1.6_iphoneos-arm64e.deb
+Size: 26192
+MD5sum: bd7dd3248f7a8c704aedcb3873b5f3ef
+SHA1: 4305c6a3edbe57861799b473301ba33c0fac58bf
+SHA256: da8f8d5d3ec6afb9bbda1738250a6181e1a653ad2437a226f78fe771b77f7966
+Section: Administration
+Priority: required
+Description: Provides sw_vers, /usr/libexec/firmware, and /etc/resolv.conf
+
+Package: dash
+Version: 0.5.12
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 188
+Pre-Depends: debianutils (>= 4.11.2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), debianutils (>= 4.11.2), libedit0
+Provides: sh
+Filename: ./debs/dash_0.5.12_iphoneos-arm64e.deb
+Size: 99258
+MD5sum: 001f24205c5d177a63e860ba2065ed06
+SHA1: 48fc4f040efbe5e82a7edf812db4812411ebd822
+SHA256: d0f6b5291b2dc1e644dc6ab4845fe76ead134b3fc3dcfd7a4743043f9db16a25
+Section: Terminal_Support
+Priority: required
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Description: POSIX-compliant shell
+ The Debian Almquist Shell (dash) is a POSIX-compliant shell derived
+ from ash.
+ .
+ Since it executes scripts faster than bash, and has fewer library
+ dependencies (making it more robust against software or hardware
+ failures), it is used as the default system shell on Debian systems.
+
+Package: debianutils
+Version: 5.7-1
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 300
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/debianutils_5.7-1_iphoneos-arm64e.deb
+Size: 72410
+MD5sum: 3bad8383ac6ec008d574c589a27a27b7
+SHA1: 39a1c102775ddf978f6c94322064a1d225a89da8
+SHA256: 5a85e43f7e7a028cb44042f9b40ab8c0a67f879569ba5341952202c48e52cdc4
+Section: Utilities
+Priority: required
+Description: Miscellaneous utilities specific to Debian
+ This package provides a number of small utilities which are used
+ primarily by the installation scripts of Debian packages, although
+ you may use them directly.
+ .
+ The specific utilities included are:
+ add-shell remove-shell run-parts
+
+Package: dev.theos.orion14
+Version: 1.0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Filename: ./debs/dev.theos.orion14_1.0.1-3_2Bdebug_iphoneos-arm64e.deb
+Size: 448034
+MD5sum: 21b5ae2c1afb6a849a94ecf62b0d0756
+SHA1: 162d0db73f16ebddb7fc58d87625896a910f119a
+SHA256: 14ccb79c53137180358cf2b24caeff223e28d52cbc1d7e526686df26adbf138e
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
+
+Package: diffutils
+Version: 3.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1716
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8
+Filename: ./debs/diffutils_3.8_iphoneos-arm64e.deb
+Size: 792992
+MD5sum: a9601880f6bf97d628e0c51d11e88990
+SHA1: 2cea9a0ac8511982540b564df1b352fc6aad2150
+SHA256: 3f4e05adc23317796d05b0a0babf4320fb97fb0eda5ecaee535365fc28716a0c
+Section: Development
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/diffutils/
+Description: compare two files for differences
+
+Package: diskdev-cmds
+Version: 697
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 916
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/diskdev-cmds_697_iphoneos-arm64e.deb
+Size: 126548
+MD5sum: b97b65d41ffe591f4562b8c6ea43ae2f
+SHA1: aa5a9ef565f38f37544afc1d64a8d7620f36ee4d
+SHA256: 2db0d61bc53dab6a94551512c21ffc0786f9855cda2f858380857fcf6ca21d33
+Section: System
+Priority: required
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+
+Package: dopamine-basebin-link
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Provides: opainject
+Filename: ./debs/dopamine-basebin-link_1.0.0_iphoneos-arm64e.deb
+Size: 1096
+MD5sum: 0d670af6e733b017e0177cc2ebb50f59
+SHA1: 424dd44904e7db76b0aa5a2cb65c1a42bc7aae56
+SHA256: 3a9972197f0e665a252a8565ada19f175a0713fee84006f2d004702093efe52e
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/opa334/Dopamine/tree/main/BaseBin
+Description: Symlinks to Dopamine Base Binaries
+Author: opa334 <opa334@protonmail.com>
+Name: Dopamine BaseBin Link
+
+Package: dpkg
+Version: 1.21.21
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 6164
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), sh, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libz-ng2, libzstd1, libmd0
+Filename: ./debs/dpkg_1.21.21_iphoneos-arm64e.deb
+Size: 2920986
+MD5sum: 1981d28e36d1d01aab6b5f5c00a1d61c
+SHA1: 6e8a6d627a105a8b222f593958be2e2c2cb4c581
+SHA256: 6bb327eadfe9a0e246a8507aa2f1e858eb1a0da821c2ee96ef21d51156c3a756
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+
+Package: ellekit
+Version: 1.2-1
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ellekit_1.2-1_iphoneos-arm64e.deb
+Size: 414084
+MD5sum: 8dc65e74277abb9783804dea1ae41840
+SHA1: dc8367199e558386ae46432e266f923601204383
+SHA256: 81ef6c06d95c766f77a207e26c3c66a9dd565322218a52dc034c3b97ed5a2b1f
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: essential
+Version: 0-5
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 0
+Pre-Depends: bootstrap | dpkg (>= 1.19.0)
+Depends: roothide (>= 0.0.9), org.coolstar.sileo (>= 2.1) | xyz.willy.zebra (>= 1.1.19) | me.apptapp.installer (>= 5.1) | cydia | openssh-server
+Filename: ./debs/essential_0-5_iphoneos-arm64e.deb
+Size: 974
+MD5sum: 7b65c6a982ddfbc642cc57659197fbad
+SHA1: 40c1716fb14ae4efb1eed211f77da2b8a5ec0082
+SHA256: 7a9bcd445b7d74b42df08ddfe00807980e30d3d744597323702d8d34cc23503d
+Section: System
+Priority: required
+Description: Virtual package to keep you safe from uninstalling important packages.
+
+Package: file
+Version: 5.43
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 100
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libmagic1 (= 5.43), liblzma5 (>= 5.2.5)
+Filename: ./debs/file_5.43_iphoneos-arm64e.deb
+Size: 23376
+MD5sum: 84cc57d94aaca32c4f7d9efde1cff1cc
+SHA1: e17007636de41e47f565ba926e3a0350221f1214
+SHA256: 7adf295aaa223380f686cefa14138ca953cf0f7469a61fe567277660fbffd858
+Section: Utilities
+Priority: important
+Description: Recognize the type of data in a file using "magic" numbers
+ The file command is "a file type guesser", a command-line tool that
+ tells you in words what kind of data a file contains.
+ .
+ This package contains the file program itself.
+
+Package: file-cmds
+Version: 400-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 480
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/file-cmds_400-1_iphoneos-arm64e.deb
+Size: 127060
+MD5sum: ed9cc81f07f6cdd7499594c2572f9e72
+SHA1: 8a674f82818800a852e4ab16dfba20a0b44ed9f9
+SHA256: 7d6af52c0b673f85a3fbda85470f7d99285f327108976b8e4ea49a27ed5bb43a
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+
+Package: findutils
+Version: 4.8.0-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1960
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), sh, sed, shell-cmds, libintl8
+Conflicts: shell-cmds (<< 207.40.1)
+Replaces: shell-cmds (<< 207.40.1)
+Filename: ./debs/findutils_4.8.0-1_iphoneos-arm64e.deb
+Size: 1014810
+MD5sum: fdaf0cc7979d9b44ee26dec0c150a6c6
+SHA1: 62ebfc7f326890de2dc98e6d443df939833f9826
+SHA256: 64ae34f6afe7915a3879defcd21d66cff0f9f8ba09f4c159c998cb3654e0c4e5
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+
+Package: gawk
+Version: 5.1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 3236
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10
+Provides: awk
+Filename: ./debs/gawk_5.1.0-2_iphoneos-arm64e.deb
+Size: 1274926
+MD5sum: 0e510d53cb89b080518f6cc10c1c35f8
+SHA1: 241cf7ced79f26ee9e718145436f162f72a9dcd9
+SHA256: 3fde36bbf35964ba25705753f8e43ad27e61dbe8fdf95550855f096d9e1f8c90
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU awk, a pattern scanning and processing language
+ `awk', a program that you can use to select particular records in a
+ file and perform operations upon them.
+ .
+ Gawk is the GNU Project's implementation of the AWK programming language.
+ It conforms to the definition of the language in the POSIX 1003.2 Command
+ Language And Utilities Standard. This version in turn is based on the
+ description in The AWK Programming Language, by Aho, Kernighan, and
+ Weinberger, with the additional features defined in the System V Release
+ 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
+ extensions, and some GNU-specific extensions.
+
+Package: gettext-localizations
+Version: 2020.10.07
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 2628
+Depends: roothide (>= 0.0.6), libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Filename: ./debs/gettext-localizations_2020.10.07_iphoneos-arm64e.deb
+Size: 770076
+MD5sum: cb497a6ccdba1754e02315890f4d58e4
+SHA1: da1fed586d9816544c7fb0fc269273ab4a09e872
+SHA256: e743d27a33ca58b4122d972ada0c09e74fd4abc457e8be1393d28773de5d9269
+Section: Localizations
+Priority: important
+Description: Locale files necessary for command line tool translation.
+
+Package: gpgv
+Version: 2.3.6
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 484
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libassuan0, libgcrypt20, libgpg-error0, libintl8, libnpth0
+Conflicts: gnupg2, gnupg (<< 2.3.6)
+Replaces: gnupg2
+Filename: ./debs/gpgv_2.3.6_iphoneos-arm64e.deb
+Size: 306378
+MD5sum: 32ef55535d0d447b7a4fed9603d81431
+SHA1: 101860ed0c71d0b87e2c3d88b06cf821ff014949
+SHA256: d6b4e73024e7771821a1edff1c7dea4084af4256dd23c4972f558f0fdf754659
+Section: Security
+Priority: standard
+Description: GNU privacy guard - signature verification tool
+ GnuPG is GNU's tool for secure communication and data storage.
+ .
+ gpgv is actually a stripped-down version of gpg which is only able
+ to check signatures. It is somewhat smaller than the fully-blown gpg
+ and uses a different (and simpler) way to check that the public keys
+ used to make the signature are valid. There are no configuration
+ files and only a few options are implemented.
+
+Package: grep
+Version: 3.10-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1120
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libpcre2-8-0
+Conflicts: text-cmds (<< 1:0)
+Replaces: text-cmds (<< 1:0)
+Filename: ./debs/grep_3.10-1_iphoneos-arm64e.deb
+Size: 555702
+MD5sum: 5a12be994c04c8ed5496501f74feb4db
+SHA1: 151d9fdd64272bf07c89749e48ce39733d465e71
+SHA256: 01c8b9daaa55b768647f10a47f249bc44a5ef84340a39237e9fcb6848c96883a
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grep/
+Description: searches files for regular expressions
+
+Package: gzip
+Version: 1.12
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 324
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: ./debs/gzip_1.12_iphoneos-arm64e.deb
+Size: 135332
+MD5sum: 07e55320b671ca970a756b780b835d33
+SHA1: 7d17009b32199957056b4f6ccea3d35797ec9fd8
+SHA256: fba15f0e46b53158c6d57ba870334e36d45927bc0a30116e0a67928e32fec437
+Section: Archiving
+Priority: standard
+Multi-Arch: foreign
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
+Package: havoc-keyring
+Version: 2022.06.03
+Architecture: all
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 4
+Depends: roothide (>= 0.0.9)
+Filename: ./debs/havoc-keyring_2022.06.03_all.deb
+Size: 1398
+MD5sum: cecc64ea22fe41ccdbec00781784cd7e
+SHA1: d2d403721f9aed91c5337fb2e6e0dc46883733fc
+SHA256: 3c4f9256506f5d3a4685eafde72f50d86a88ecea967497c25035c3a43dd87f32
+Section: Keyrings
+Priority: optional
+Description: GnuPG keys for the Havoc repository
+
+Package: launchctl
+Version: 1:1.2.0
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 148
+Depends: roothide (>= 0.1.0), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/launchctl_1_3A1.2.0_iphoneos-arm64e.deb
+Size: 62368
+MD5sum: 36e96aeb981096ab7f3502e1722f519d
+SHA1: c928c852fdf7f8888e5bba0e43fd3872328a790e
+SHA256: 9673af1e374069583a06ea6c1948358d181ac912f0e9658ded562dbafc458845
+Section: System
+Priority: required
+Homepage: https://github.com/ProcursusTeam/launchctl
+Description: Tells launchd what to do
+
+Package: ldid
+Version: 2.1.5-procursus7
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 220
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libssl3, libplist3 (>= 2.2.0)
+Filename: ./debs/ldid_2.1.5-procursus7_iphoneos-arm64e.deb
+Size: 100650
+MD5sum: ebe955c02cc43d7c659cb2df844d6c96
+SHA1: 79c3f661bf2c4b7483f1eed0a983bec264be0196
+SHA256: df4729086f3ce650331574d69bc412d3ee5cea82dc58f9d793fc8c5518d4a6af
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: libapt-pkg6.0
+Version: 2.6.0-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 2896
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
+Conflicts: apt7 (<< 1:0), apt1.4 (<< 1:0), apt1.8 (<< 1:0), libapt-pkg5.0 (<< 1:0), libapt (<< 1:0), apt-key (<< 1:0), apt (<< 2.1.10-2)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
+Provides: libapt-pkg (= 2.6.0-2)
+Filename: ./debs/libapt-pkg6.0_2.6.0-2_iphoneos-arm64e.deb
+Size: 1636696
+MD5sum: 7335830b826a67ba56a2bd766cdf5c03
+SHA1: b412c792fd13443b4c4aa36ec468fabe6b3d410d
+SHA256: 913988f4b6b849ad2639644fb3a06e14dc3ced4fd66c15e9dc74dd378888e6b2
+Section: Libraries
+Priority: required
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+
+Package: libassuan0
+Version: 2.5.5
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 172
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libgpg-error0
+Filename: ./debs/libassuan0_2.5.5_iphoneos-arm64e.deb
+Size: 64944
+MD5sum: 9894de6de1d817da2ce8ddfe930262a8
+SHA1: 6235e70cef08b4b4dc30698647092f1d4fbd430e
+SHA256: 5e956aab57fd3fa670368d4a1cada719107a1be079a37cd31a7f85e87adfbca9
+Section: Libraries
+Priority: optional
+Description: IPC library for the GnuPG components
+ Libassuan is a small library implementing the so-called "Assuan
+ protocol". This protocol is used for IPC between most newer GnuPG
+ components. Both server and client side functions are provided.
+
+Package: libbrotli1
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 920
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libbrotli1_1.0.9_iphoneos-arm64e.deb
+Size: 520576
+MD5sum: 8edb100bf3702b5313f1f1b872bac892
+SHA1: 9ee878fe4ed9e7144dc8ba53b956fc93adace0c3
+SHA256: e9590802c56646b8a576c3e5a67e52d0f0196ef908c43fdbe2309a0e1b6c2deb
+Section: Development
+Priority: optional
+Homepage: https://www.brotli.org/
+Description: Shared libraries for the Brotli compression format
+
+Package: libcrypt2
+Version: 4.4.33
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 252
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libcrypt2_4.4.33_iphoneos-arm64e.deb
+Size: 116006
+MD5sum: 985f3ebf5b923000908786aefca25700
+SHA1: ae6ee98ac79c69539e4023771330f5a8463e821b
+SHA256: 833146ed63c553fac7a27444632f18420b79f77fd01019ede2239096d6832b71
+Section: Libraries
+Priority: optional
+Description: libcrypt shared library
+ libxcrypt is a modern library for one-way hashing of passwords.
+ It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
+ bcrypt-based password hashes
+ It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
+ as well as a set of extended interfaces like 'crypt_gensalt'.
+
+Package: libdimentio0
+Version: 1:0~20230202.7ffffff
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 84
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), firmware (<< 14.0) | libkernrw0 | libkrw0
+Conflicts: com.michael.dimentio, com.kasiimh1.dimentio, com.0x7ff.dimentio
+Replaces: com.michael.dimentio, com.kasiimh1.dimentio, com.0x7ff.dimentio
+Filename: ./debs/libdimentio0_1_3A0_7E20230202.7ffffff_iphoneos-arm64e.deb
+Size: 21700
+MD5sum: 4ae5eed90051abaf31e75db954621353
+SHA1: bb99ef448f9c14c2b3a8af91127589ab878a8e82
+SHA256: dac3f655e024637a43f78b627bd8c8252e200479df4a55bcb7a03d307504d8bb
+Section: Libraries
+Priority: optional
+Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (Runtime libraries)
+Author: 0x7ff
+
+Package: libedit0
+Version: 3.1-20221030
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 216
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6 (>= 6.0)
+Filename: ./debs/libedit0_3.1-20221030_iphoneos-arm64e.deb
+Size: 103518
+MD5sum: 2b2261a02fafd6113fe357f2c992e212
+SHA1: 9cd54b60663c06feb4383e68a9561e9c7cf3e110
+SHA256: e3674b149f2e475a612cb81d887e953395ec04feec18754fce21c0f313508f5e
+Section: Libraries
+Priority: optional
+Description: BSD editline and history libraries
+ Command line editor library provides generic line editing,
+ history, and tokenization functions.
+ .
+ It slightly resembles GNU readline.
+
+Package: libffi8
+Version: 3.4.2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 108
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libffi8_3.4.2_iphoneos-arm64e.deb
+Size: 11656
+MD5sum: 209199d1d251000303e3667b0856b9bf
+SHA1: bfc3f00f16c09776c0a90450b744d795b5d7f928
+SHA256: afa3eb8d2c53c26507b0222b522afff56c7c1728c70d82d2bce94a7a7b2220e9
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
+
+Package: libgcrypt20
+Version: 1.10.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 836
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libgpg-error0 (>= 1.37)
+Conflicts: gcrypt (<< 1:0), libgcrypt (<< 1:0)
+Replaces: gcrypt, libgcrypt
+Provides: gcrypt (= 1.10.1), libgcrypt (= 1.10.1)
+Filename: ./debs/libgcrypt20_1.10.1_iphoneos-arm64e.deb
+Size: 545436
+MD5sum: a45b2f7a2f75b2b778b63e867e8c08a8
+SHA1: 4e17503d4eca02a56430bcdaa3ae23423f478b82
+SHA256: fcd2bbf009181950e101c088b8daafa2639bd389aa0926b49bc55dcfcb99cd60
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Description: LGPL cryptographic algorithm library (Libraries)
+
+Package: libgmp10
+Version: 6.2.1-3
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 572
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libgmp10_6.2.1-3_iphoneos-arm64e.deb
+Size: 367150
+MD5sum: f279f93e95b1f63c2e5b351f26b31414
+SHA1: 4fe245dc4b5316ae5ef5e718596ff5d951c46c55
+SHA256: 18368de5db0b4fbb67c7b4c004d4ef04e0fb425e6fc4ee110421e5692ad43d1c
+Section: Libraries
+Priority: optional
+Homepage: https://gmplib.org/
+Description: Multiprecision arithmetic library
+ GNU MP is a programmer's library for arbitrary precision
+ arithmetic (ie, a bignum package).  It can operate on signed
+ integer, rational, and floating point numeric types.
+ .
+ It has a rich set of functions, and the functions have a regular
+ interface.
+
+Package: libgnutls30
+Version: 3.8.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1884
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring5, libnettle8, libhogweed6, libp11-kit0, libtasn1-6, libzstd1, libbrotli1
+Conflicts: gnutls (<< 1:0)
+Replaces: gnutls (<< 1:0)
+Provides: gnutls (= 1:0)
+Filename: ./debs/libgnutls30_3.8.0_iphoneos-arm64e.deb
+Size: 1210976
+MD5sum: 3d7a7b85e5ebdd1cad9dd7795b0e0a88
+SHA1: a932061c51b6b806af6e27012c7fcd79441a2bac
+SHA256: 4e75978d2eedef5ca660f2808efb8b01dfed225dc52571536b7ac617ffc987cd
+Section: Libraries
+Priority: optional
+Homepage: http://www.gnu.org/software/gnutls/
+Description: GNU TLS library - main runtime library
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+ Transport Layer Security (DTLS 1.0, 1.2) protocols.
+ .
+ GnuTLS features support for:
+  - certificate path validation, as well as DANE and trust on first use.
+  - the Online Certificate Status Protocol (OCSP).
+  - public key methods, including RSA and Elliptic curves, as well as password
+    and key authentication methods such as SRP and PSK protocols.
+  - all the strong encryption algorithms, including AES and Camellia.
+  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+  - HSMs and cryptographic tokens, via PKCS #11.
+ .
+ This package contains the main runtime library.
+
+Package: libgpg-error0
+Version: 1.46
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 216
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8
+Filename: ./debs/libgpg-error0_1.46_iphoneos-arm64e.deb
+Size: 100824
+MD5sum: 730258c9eca552247fcb50c8e5aff2c5
+SHA1: a68c11e41eceb9003f1a43fb8b055c5934929a61
+SHA256: 578d89952d82d0d0492858a5d718f293e5794986e777325953c4fb96b53786f4
+Section: Libraries
+Priority: optional
+Description: GnuPG development runtime library
+ Library that defines common error values, messages, and common
+ runtime functionality for all GnuPG components.  Among these are GPG,
+ GPGSM, GPGME, GPG-Agent, libgcrypt, pinentry, SmartCard Daemon and
+ possibly more in the future.
+ .
+ It will likely be renamed "gpgrt" in the future.
+
+Package: libhogweed6
+Version: 3.8.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 312
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libgmp10, libnettle8 (= 3.8.1)
+Filename: ./debs/libhogweed6_3.8.1_iphoneos-arm64e.deb
+Size: 234062
+MD5sum: 27391a4ad5d0d2672e9c8fee43970288
+SHA1: ccb0db3fb2080268b112f4f53c57ceed12818d27
+SHA256: a478075c7ca6df9105b9a1e193ef8778180969ab20ee152f0d1286d99ca4c374
+Section: Libraries
+Priority: optional
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (public-key cryptos)
+
+Package: libidn2-0
+Version: 2.3.4
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 396
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8, libunistring5
+Conflicts: libidn2 (<< 2.3.4)
+Replaces: libidn2 (<< 2.3.4)
+Provides: libidn2 (= 2.3.4)
+Filename: ./debs/libidn2-0_2.3.4_iphoneos-arm64e.deb
+Size: 179108
+MD5sum: 23671a76c3844b2827fcb83deeaba4f7
+SHA1: 6a062a4d3e1954bc70ea0ccc0c853f4df6550282
+SHA256: 2f671134909e9c38b41d5b6017db4de6f9d8609d619c769f21c422757ca6cb59
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Internationalized domain names (IDNA2008/TR46) library
+
+Package: libintl8
+Version: 0.21.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 156
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libintl8_0.21.1_iphoneos-arm64e.deb
+Size: 73608
+MD5sum: bd347b17f0d992139a598f4b2564f6b0
+SHA1: ed9f516a0d9ba63ae4eb65dbc2694c2172d1d4d5
+SHA256: 1236debcbcef8d5fc9c1dfa23fe7de649d040f43859cc3e343a9a6b384609184
+Section: System
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+Essental: yes
+
+Package: libiosexec1
+Version: 1.3.1-2
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 76
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libiosexec1_1.3.1-2_iphoneos-arm64e.deb
+Size: 12824
+MD5sum: 2aaaa41ad8e6d43b080aea138906c60e
+SHA1: 5849332b287f263f34d8e44758faf41f9785c543
+SHA256: 6a9f66dc776336a87407d13e22c2bce9790cb56c9bcf679b4f15e3d32b72dacf
+Section: Libraries
+Priority: required
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
+
+Package: libkrw0
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 56
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libkrw0-plugin
+Provides: libkrw (= 1.1.1)
+Filename: ./debs/libkrw0_1.1.1_iphoneos-arm64e.deb
+Size: 5652
+MD5sum: 8df1aa8c82e48a368fa43604f63430b3
+SHA1: 07269132f4f47b378e231e5acfa0ebe6729701ce
+SHA256: 519d4f15d075d21646ebd39224d510ef76d770fbf770acdc112b32ff54249a40
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/Siguza/libkrw
+Description: A kernel R/W API for jailbreaks (Shared Library)
+Author: Siguza
+
+Package: libkrw0-dopamine
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Depends: libiosexec1 (>= 1.3.1)
+Provides: libkrw0-plugin
+Filename: ./debs/libkrw0-dopamine_2.0.4_iphoneos-arm64e.deb
+Size: 6680
+MD5sum: 40c16d21582247d68b366e5514f6d7fc
+SHA1: 1faf0825bc69842c80a7bc6d475e501adc5ddbc5
+SHA256: 053953f95a3260a860638d5996c7143be88eefbcf8cf541f0917614330a777cd
+Section: Libraries
+Priority: standard
+Homepage: https://github.com/opa334/Dopamine/tree/main/Packages/libkrw-provider
+Description: libkrw Plug-in for Dopamine (Shared Library)
+Author: opa334 <opa334@protonmail.com>
+Name: libkrw Plug-in (Dopamine)
+
+Package: liblz4-1
+Version: 1.9.3
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 164
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: lz4 (<< 1.9.3)
+Filename: ./debs/liblz4-1_1.9.3_iphoneos-arm64e.deb
+Size: 75652
+MD5sum: b7a31ef6b895b6d82b53061c9c18d105
+SHA1: db6063f2f818aabb8c18326d48e029b143208497
+SHA256: bf90cb548b0a965aa2cb79a1bd763d835f8d5091c2e19c6fabdcfad93e92f6fe
+Section: Libraries
+Priority: important
+Homepage: http://tukaani.org/lzma/
+Description: Fast LZ compression algorithm library - runtime
+
+Package: liblzma5
+Version: 5.4.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 232
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: xz (<< 1:0), lzma (<< 3:0)
+Replaces: xz, lzma
+Filename: ./debs/liblzma5_5.4.1_iphoneos-arm64e.deb
+Size: 133182
+MD5sum: 76c6f0fc1f1028b12bdd91924923b1a1
+SHA1: 1791d4d7057d5bf41757bee5ad84402fb3034c79
+SHA256: b50829c0a88e861e251d3c298e627793ae0af1e6b4af34ccc9e7b76e2ee36730
+Section: Libraries
+Priority: standard
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.)
+
+Package: libmagic1
+Version: 5.43
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 7996
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.43)
+Replaces: file (<< 5.43)
+Filename: ./debs/libmagic1_5.43_iphoneos-arm64e.deb
+Size: 687550
+MD5sum: 607fa825d58cd8b40b9e6091d44ec2ad
+SHA1: 83feb36b63ea062f37eb89e544dddc5bcc21e657
+SHA256: cb4e221f65e19922c81a5460587792834c6699d0788db59f8879baeaa47eb29a
+Section: Libraries
+Priority: important
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libmd0
+Version: 1.0.4-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 100
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libmd0_1.0.4-1_iphoneos-arm64e.deb
+Size: 26644
+MD5sum: b8390de1221b3d88266e81bb781484aa
+SHA1: c5c9db4680f87b18f1cdfffa5327ae06c41d9e8c
+SHA256: 21bc5a88148530b3c836d5d933b7dc2b657997bda95c2e925c6df3fb7b970d1e
+Section: Libraries
+Priority: optional
+Description: message digest functions from BSD systems - shared library
+ The libmd library provides various message digest ("hash") functions,
+ as found on various BSDs on a library with the same name and with a
+ compatible API.
+
+Package: libmpfr6
+Version: 4.1.0
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 516
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10
+Filename: ./debs/libmpfr6_4.1.0_iphoneos-arm64e.deb
+Size: 308470
+MD5sum: 452c5cfdbfa422723b3df539c4cf20e7
+SHA1: 40b6340fb25a9321882d61848762f1a860db1fad
+SHA256: 2f9e197ab1ff65042ad0e4618442935f1f88f550bcb627c74369966b77519b51
+Section: Libraries
+Priority: optional
+Homepage: https://www.mpfr.org
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: libncursesw6
+Version: 6.4
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 776
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), ncurses-term (= 6.4)
+Conflicts: ncurses (<< 6.4)
+Replaces: ncurses (<< 6.4)
+Provides: ncurses (= 6.4)
+Filename: ./debs/libncursesw6_6.4_iphoneos-arm64e.deb
+Size: 461094
+MD5sum: fc7d8ef4e6824607056b35928250cc80
+SHA1: 15fd86d35e43231d52cc00283d9bacefb55cb387
+SHA256: 536ab6c9bc464744ad1c11d2c0d50e59eeaaf5a1437119d50e266bf72e170a58
+Section: Libraries
+Priority: required
+Description: shared libraries for terminal handling (wide character support)
+
+Package: libnettle8
+Version: 3.8.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 320
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libnettle8_3.8.1_iphoneos-arm64e.deb
+Size: 201124
+MD5sum: 9203d3419a1d7c881117ec1ad3679737
+SHA1: cdebd489f8655db8c1531252fb553b9ea6f4a80a
+SHA256: e3c6698961eb3bbab753f5473d6d7fc11cc16361b5f85bae07db4eb53a60f185
+Section: Libraries
+Priority: optional
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (symmetric and one-way cryptos)
+
+Package: libnpth0
+Version: 1.6-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 68
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: gnupth, npth (<< 1.6-2)
+Replaces: npth (<< 1.6-2)
+Provides: npth (= 1.6-2)
+Filename: ./debs/libnpth0_1.6-2_iphoneos-arm64e.deb
+Size: 9192
+MD5sum: 30ff5a76105c04e8995c8978fa57b298
+SHA1: e4213e4a29a80ab6a91e210fb10818621b5f72a5
+SHA256: b1fd6c23bc73ee85303759dfad4fc64f1b7affbd6a85c869be3eb4b89b83dd5f
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Description: replacement for GNU Pth using system threads
+
+Package: libp11-kit0
+Version: 0.24.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 928
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8, libffi8, ca-certificates
+Conflicts: p11-kit (<< 0.24.1)
+Replaces: p11-kit (<< 0.24.1)
+Filename: ./debs/libp11-kit0_0.24.1_iphoneos-arm64e.deb
+Size: 293064
+MD5sum: cbc251235d58376c2f668baa788635ba
+SHA1: 6f05f2288141815b3bc00023c7edcc37b99aaf36
+SHA256: 3e41f24ed672693e76961b46a965a15d6aab6b50d9ec24f47e9064bebbaf3de0
+Section: Libraries
+Priority: standard
+Multi-Arch: foreign
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: library for loading and coordinating access to PKCS#11 modules - runtime
+ The p11-kit library provides a way to load and enumerate Public-Key
+ Cryptography Standard #11 modules, along with a standard configuration
+ setup for installing PKCS#11 modules so that they're discoverable. It
+ also solves problems with coordinating the use of PKCS#11 by different
+ components or libraries living in the same process.
+ .
+ This package contains the shared library required for applications loading
+ and accessing PKCS#11 modules.
+
+Package: libpam-modules
+Version: 1000.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 616
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libpam2
+Filename: ./debs/libpam-modules_1000.0_iphoneos-arm64e.deb
+Size: 70534
+MD5sum: 4ab0c97e2b4a5518dd86b7379c96b755
+SHA1: 1eab27411cc40e19d0ef4a488616e99ea4836924
+SHA256: 797900d2db7f3dbd6132d50399da9ea7a175e7bd0adc10e817ca44055a8fd23f
+Section: Administration
+Description: Pluggable Authentication Modules for PAM
+ This package completes the set of modules for PAM. It includes the
+  pam_unix.so module as well as some specialty modules.
+
+Package: libpam2
+Version: 20190224
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 104
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libpam-modules
+Filename: ./debs/libpam2_20190224_iphoneos-arm64e.deb
+Size: 23854
+MD5sum: 8470f190e68329ef342b7f8c61060fa4
+SHA1: 739e37ed3dd5f93db6d0393503709e1aa195bb53
+SHA256: f73dcdfb1435b408af3740f8d824a6b89b2be4590aff5cd78dafc943e1aef4ae
+Section: Administration
+Description: Pluggable Authentication Modules library
+ Contains the shared library for OpenPAM, a library that enables the
+ local system administrator to choose how applications authenticate users.
+ In other words, without rewriting or recompiling a PAM-aware application,
+ it is possible to switch between the authentication mechanism(s) it uses.
+ One may entirely upgrade the local authentication system without touching
+ the applications themselves.
+
+Package: libpcre1
+Version: 8.45-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 460
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: pcre (<< 1:0), libpcre (<< 1:0)
+Replaces: pcre, libpcre
+Provides: pcre (= 1:0), libpcre (= 8.45-1)
+Filename: ./debs/libpcre1_8.45-1_iphoneos-arm64e.deb
+Size: 219416
+MD5sum: 411aae5f6bda11130c5e2595c363c627
+SHA1: 61c9527d6775c4899afc05af4d44892ecf329ab8
+SHA256: 6d06460c455ad44cf663bb4130d6962fbcb84400fa41c4cf1f48d5fe9b65c4f7
+Section: Libraries
+Priority: standard
+Multi-Arch: foreign
+Description: Old Perl 5 Compatible Regular Expression Library - runtime library
+ This is a library of functions to support regular expressions whose syntax
+ and semantics are as close as possible to those of the Perl 5 language.
+ .
+ New packages should use the newer pcre2 packages, and existing
+ packages should migrate to pcre2.
+ .
+ This package contains the runtime library.
+
+Package: libpcre2-8-0
+Version: 10.40-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 556
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: pcre2 (<< 1:0), libpcre2 (<< 1:0)
+Replaces: pcre2, libpcre2
+Provides: pcre2 (= 1:0), libpcre2 (= 10.40-1)
+Filename: ./debs/libpcre2-8-0_10.40-1_iphoneos-arm64e.deb
+Size: 273230
+MD5sum: 8917683bce0dc38bf3a94669564dcd8b
+SHA1: a0c979301bcf88f2cc5f0f5a1470be51e7bd8034
+SHA256: cd56376927e0d670559c2e7dbd6b534dca5614dec5f829bbaa2755fef9558c94
+Section: Libraries
+Priority: standard
+Multi-Arch: foreign
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the 8 bit runtime library.
+
+Package: libplist3
+Version: 2.2.0+git20230130.4b50a5a
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 132
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: libplist
+Replaces: libplist
+Provides: libplist (= 99)
+Filename: ./debs/libplist3_2.2.0_2Bgit20230130.4b50a5a_iphoneos-arm64e.deb
+Size: 53606
+MD5sum: 43236e0b6ee9cd68458f64756ba5ad04
+SHA1: a13abd45bf5ce1425da598713748c36245be3730
+SHA256: f1a5b1349a9c2f3b0423788a0295a47cffe016caa63fb2f6ffe9278d0920329c
+Section: Development
+Priority: standard
+Description: Library for handling Apple binary and XML property lists
+
+Package: libreadline8
+Version: 8.2.0-1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 428
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6
+Conflicts: readline (<< 8.2.0-1)
+Replaces: readline (<< 8.2.0-1)
+Provides: readline (= 8.2.0-1)
+Filename: ./debs/libreadline8_8.2.0-1_iphoneos-arm64e.deb
+Size: 204582
+MD5sum: 9be3b5f59f891c036ccfa19972726be7
+SHA1: 70edd74274e8e77f5923c28fb3c075d7fbbaa05c
+SHA256: c9926e22bd730e23419157efcf4801e436702a02fb4d14bd7e2a028a0f61b10c
+Section: Libraries
+Priority: required
+Description: GNU readline and history libraries, run-time libraries
+
+Package: libssl3
+Version: 3.0.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 4016
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), ca-certificates
+Filename: ./debs/libssl3_3.0.8_iphoneos-arm64e.deb
+Size: 2241646
+MD5sum: d87d2b0fde69a2346d9ef4f39ce6f855
+SHA1: ee344b6577033e9738e80c33862569c4c50d9865
+SHA256: 59ad76bdaf9c8ae7ea10c851e93d21ae7cbe94f7d00569660920ff68e1338381
+Section: Libraries
+Priority: standard
+Description: Secure Sockets Layer toolkit - shared libraries
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: libtasn1-6
+Version: 4.18.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 132
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: libtasn1 (<< 1:0)
+Replaces: libtasn1 (<< 1:0)
+Provides: libtasn1 (= 4.18.0)
+Filename: ./debs/libtasn1-6_4.18.0_iphoneos-arm64e.deb
+Size: 50600
+MD5sum: ef858c313d23ce348ba5bb4744a98a01
+SHA1: faaf81036543613d44bfe306b06f2d0ead89d945
+SHA256: e76793879b5b1a21776aaa11fc5e297d12e991797f993709d4465f1ea16bf329
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libtasn1
+Description: Manage ASN.1 structures (runtime)
+ Manage ASN1 (Abstract Syntax Notation One) structures.
+ The main features of this library are:
+   * on-line ASN1 structure management that doesn't require any C code
+     file generation.
+   * off-line ASN1 structure management with C code file generation
+     containing an array.
+   * DER (Distinguish Encoding Rules) encoding
+   * no limits for INTEGER and ENUMERATED values
+ .
+ This package contains runtime libraries.
+
+Package: libunistring5
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1808
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libunistring5_1.1_iphoneos-arm64e.deb
+Size: 947378
+MD5sum: d8847d55ee560f0daa2a83d425902efe
+SHA1: 7ee527f7da77d8f057b80cdf367ed52e0f872273
+SHA256: 8f13116dc2559e253ca80f4acb8a96e08fe2cd915c66f4560af00efa6e19a2e1
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
+
+Package: libxar1
+Version: 1.8.0.487.100.1-1
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 144
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3
+Conflicts: xar (<< 1.8.0.487.100.1-1)
+Replaces: xar (<< 1.8.0.487.100.1-1)
+Filename: ./debs/libxar1_1.8.0.487.100.1-1_iphoneos-arm64e.deb
+Size: 52692
+MD5sum: 687a203737fe57cf12d13d15571c4071
+SHA1: 76fcc180862bcb267a424af90465c7281fbccdbc
+SHA256: fac7e6c237db6cbe1b34696ea1f161ed36b510a7a80780dedcc5bae261f30d79
+Section: Libraries
+Priority: optional
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format - dynamic library
+
+Package: libxxhash0
+Version: 0.8.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 56
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libxxhash0_0.8.1_iphoneos-arm64e.deb
+Size: 13620
+MD5sum: 9e49cd5dc590f50f2f85ed438272b014
+SHA1: f39473b8bef1b08efea95b2265e38f85cbe9cf51
+SHA256: b7cf4c57686a7b76ee783a77da4054e667b306aab9cf136d83e0eaca2f1cb92c
+Section: Libraries
+Description: shared library for xxhash
+ xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
+ It successfully completes the SMHasher test suite which evaluates collision,
+ dispersion and randomness qualities of hash functions. Code is highly portable,
+ and hashes are identical on all platforms (little / big endian).
+ .
+ This package contains the shared library.
+
+Package: libz-ng2
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 152
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Filename: ./debs/libz-ng2_2.0.6_iphoneos-arm64e.deb
+Size: 72586
+MD5sum: edf4660a59ea5db28bd6680c7c428b00
+SHA1: c43664d3a08bf8400d43041e61c12e290b16dc23
+SHA256: cd979ce9f98cb864c2877fe5a05dcfc2100f1e6821512b52b9ac06e5c3391d18
+Section: Libraries
+Priority: standard
+Description: next gen zlib compression library - runtime
+ next generation zlib library implementing the deflate compression method
+ found in gzip and PKZIP. This package includes the shared library.
+
+Package: libzstd1
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 668
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), liblz4-1, liblzma5 (>= 5.2.5)
+Filename: ./debs/libzstd1_1.5.5_iphoneos-arm64e.deb
+Size: 347824
+MD5sum: 93256a938b161717d1a6afddb2e131ce
+SHA1: 3860266532835befb6f43c9ed16de1e45f0610ab
+SHA256: b4bb6945fe85a1876cac517c08bd12588da875e34192b6bc21757bb9a4c14b4a
+Section: Libraries
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: ncurses-bin
+Version: 6.4
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 820
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6 (= 6.4)
+Conflicts: ncurses (<< 6.4)
+Replaces: ncurses (<< 6.4)
+Filename: ./debs/ncurses-bin_6.4_iphoneos-arm64e.deb
+Size: 421004
+MD5sum: aa0f476bd6dc94e98800ee68abde1ecf
+SHA1: adba08d78b71da967196501b9eb9b3c24184edd3
+SHA256: 2d408659834a43e0d59e7f256dde9433de8b22556c1504577de20212224463b8
+Section: Utilities
+Priority: important
+Description: terminal-related programs and man pages
+
+Package: ncurses-term
+Version: 6.4
+Architecture: all
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 7452
+Depends: roothide (>= 0.0.9), libncursesw6 (= 6.4)
+Conflicts: ncurses (<< 6.4)
+Replaces: ncurses (<< 6.4)
+Filename: ./debs/ncurses-term_6.4_all.deb
+Size: 874926
+MD5sum: 909166aaa8b9653ac464b2d6bff8e113
+SHA1: 832eee6754e1e154beaff01c0ba61a27a488ca21
+SHA256: c6af2ab478e45cd7e5d007a026532ae9a00e679de4e4cf84c301ff93be1a763e
+Section: System
+Priority: required
+Description: This package contains terminfo data files to support most types of terminals.
+
+Package: openssh
+Version: 1:0
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 8
+Depends: roothide (>= 0.0.6), openssh-client, openssh-server, openssh-sftp-server
+Filename: ./debs/openssh_1_3A0_iphoneos-arm64e.deb
+Size: 3742
+MD5sum: 776a8a2c1b80f898f8843ea5ac68dd50
+SHA1: 515b7264418eac86e9cca85a4e865d734d647247
+SHA256: f9f137f425cc536385f6d005340b8252673f24699dd6046a63b5912aff20152d
+Section: Networking
+Priority: important
+Description: secure shell client and server (metapackage)
+
+Package: openssh-client
+Version: 9.2p1
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 3508
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, libcrypt2, libmd0
+Conflicts: openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./debs/openssh-client_9.2p1_iphoneos-arm64e.deb
+Size: 1860114
+MD5sum: f5110cc4a40f0bb9fbc2fd8e8e90bfa0
+SHA1: 7e478e8fb03902b6afea865d54974cd497b3dd04
+SHA256: c0fa820aa0d4353611a6644665b27e97f033e0e2809907cddae5fe8d0d0af90e
+Section: Networking
+Priority: important
+Description: secure shell (SSH) client, for secure access to remote machines
+
+Package: openssh-server
+Version: 9.2p1
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 1356
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, openssh-client (= 9.2p1), openssh-sftp-server, libcrypt2, libpam2, libmd0
+Conflicts: com.midnightchips.localhostssh, openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./debs/openssh-server_9.2p1_iphoneos-arm64e.deb
+Size: 529932
+MD5sum: feb15a1e809233d3def49eefa25babdb
+SHA1: 91a0f36d19ae2e28f2f3957c4fd30edb756bf1b9
+SHA256: 7728f4c8be2670bff61156082106092b77169615d670e66b4a765e9e3d98cd1c
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+
+Package: openssh-sftp-server
+Version: 9.2p1
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 136
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libssl3, openssh-client (= 9.2p1), libcrypt2, libmd0
+Conflicts: openssh (<< 1:0)
+Replaces: openssh (<< 1:0)
+Filename: ./debs/openssh-sftp-server_9.2p1_iphoneos-arm64e.deb
+Size: 50198
+MD5sum: c4e910c19cd0adf3aab82caca0948241
+SHA1: 65cace74dd9651e9b793d8cab3f96f7c2010ffa0
+SHA256: 6bc3541851ec80c9900e40d19e2e24b2b1282371672aaddf8240e12de7f7301d
+Section: Networking
+Priority: important
+Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
+
+Package: org.coolstar.sileo
+Version: 2.5.1-13
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/org.coolstar.sileo_2.5.1-13_iphoneos-arm64e.deb
+Size: 7952372
+MD5sum: 6b44f4ff990211ff1afb77206f9e8d33
+SHA1: 3c78d107f3fa9712c7b7bb1bedb5cd6f8a24afaf
+SHA256: 4c4004c01aebeb3081f41e182781d9f20cccc2119f9a9ed2bfa14964529a3d33
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: p7zip
+Version: 17.04
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 9764
+Depends: roothide (>= 0.0.7), libiosexec1 (>= 1.3.1)
+Filename: ./debs/p7zip_17.04_iphoneos-arm64e.deb
+Size: 6041778
+MD5sum: 81729220d4c38059491c3d93516b7e46
+SHA1: 1e3e2fc696b0d63d43ba9907f6b4607da40a52c8
+SHA256: df7a3eb5647c687cb783fe2866b7c044e1f3aa3f1578fd3de0e27efb96013acc
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Description: 7z and 7za file archivers with high compression ratio
+ .
+ p7zip is the Unix command-line port of 7-Zip, a file archiver that handles the 7z format which features very high compression ratios.
+ .
+ p7zip provides utilities to pack and unpack 7z archives within a shell or using a GUI (such as Ark, File  Roller or Nautilus).
+ .
+ Installing p7zip-full allows File Roller to use the very efficient 7z compression format for packing and unpacking files and directories. Additionally, it provides the 7z and 7za commands.
+ .
+ List of supported formats:
+ .
+  - Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+  - Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+    HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
+    VHD, WIM, XAR and Z.
+
+Package: plutil
+Version: 0.2.2+2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 124
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Provides: com.bingner.plutil (= 0.2.2+2)
+Filename: ./debs/plutil_0.2.2_2B2_iphoneos-arm64e.deb
+Size: 36066
+MD5sum: 28331cc5a414aba85a41ca42920c2e21
+SHA1: 4afc78de91a8147f05cdc9b3848a3f966669681a
+SHA256: 19a8180492743626599ee630dcb024c548d93e033aa1319502f2479b4c3303e3
+Section: System
+Description: Utility for creating and editing Apple property list files.
+Author: Samuel Bingner
+
+Package: preferenceloader
+Version: 2.2.8
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.8_iphoneos-arm64e.deb
+Size: 39114
+MD5sum: e3d53b9721c70a2625c925cce9fd90f8
+SHA1: 976f3c72ea14a889a3f381ce864832da2a608f5d
+SHA256: e74dec639491afda9db8cc286d43023175c7bc583677551a49b7592ec865af38
+Section: System
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: procursus-keyring
+Version: 2020.05.09-4
+Architecture: all
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 4
+Depends: roothide (>= 0.0.9), chariz-keyring, havoc-keyring
+Filename: ./debs/procursus-keyring_2020.05.09-4_all.deb
+Size: 3324
+MD5sum: 9ad33499b878fa06d5c52b13194d6cb9
+SHA1: 913809ee4521c8557016f1f3ff9484173b201a14
+SHA256: 0edc335a76a3bd5be1ca801d12dac4386ef1944e2fade79c4ee8f91126c89ff2
+Section: Keyrings
+Priority: required
+Description: GnuPG keys for the Procursus repo
+
+Package: profile.d
+Version: 0-7
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 12
+Pre-Depends: system-cmds (>= 805.220.1)
+Depends: roothide (>= 0.0.9), zsh
+Filename: ./debs/profile.d_0-7_iphoneos-arm64e.deb
+Size: 1390
+MD5sum: a5712c1db0660c5c36f4c59c7cb4bd7c
+SHA1: 124549015b5b8d7ade2c197c885594b5caeec13d
+SHA256: d256b21aede3f9bde5671a807afe64c5bb7d1b21b37366920c63d22e50fae4dd
+Section: Administration
+Priority: standard
+Description: makes packaging for /etc/profile reasonable
+
+Package: roothide
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide
+Installed-Size: 936
+Filename: ./debs/roothide_0.1.0_iphoneos-arm64e.deb
+Size: 118690
+MD5sum: 4d1d14da852af7939c10b0ef72a4a843
+SHA1: 40009db45fc96aa3e0593e4cc9a9c68aa2709604
+SHA256: 9a3bde206b200bb8552bcd9374bf17d0322255180d8c8dae137f99d895a737c7
+Section: System
+Priority: required
+Description: roothide core package
+Author: roothide
+Name: roothide core
+
+Package: roothide.patches.filza
+Version: 0.5-4
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
+Size: 73758
+MD5sum: 26a0ed87c715b0f03de5ae2c1b4c7859
+SHA1: b5235cc70fc3156b6c375eadc0a676f28e56ad5d
+SHA256: ee2abf9401c211aca29bd40714f3b520a66704f877107898a001eb341d299c6f
+Section: RootHide Patches
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
+
+Package: rootless-compat
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader (>= 0.0.4)
+Filename: ./debs/rootless-compat_2.0_iphoneos-arm64e.deb
+Size: 93382
+MD5sum: 4e980b7f4ee60fe2071caa7f8bb28180
+SHA1: ed05dab91e1fd7d68da184ee309c630587511b55
+SHA256: f9fa287220a96ab0940f92188be48621661c82624116e84d919606765ce209ed
+Section: RootHide Patches
+Description: Compat Layer for Rootless Tweaks
+Author: roothide
+Name: rootless-compat
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4-2
+Architecture: iphoneos-arm64e
+Maintainer: Ash
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/ru.domo.cocoatop64_2.2.4-2_iphoneos-arm64e.deb
+Size: 524510
+MD5sum: 28a1ba1592813368bc225742a9526bb7
+SHA1: 79263a99d688adafee18252c142eacb3cfb50345
+SHA256: b52ab32c2702b19a39f93fd5853cac830be6e591bc0633c34b47f0b57a5d19f9
+Section: 应用程序
+Description: 完美版。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+
+Package: sed
+Version: 4.9
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 256
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8
+Conflicts: text-cmds (<< 1:0)
+Replaces: text-cmds (<< 1:0)
+Filename: ./debs/sed_4.9_iphoneos-arm64e.deb
+Size: 138358
+MD5sum: c186c19f6c59b1cf1e44b0c7d9b0a378
+SHA1: 6f3ea80a90c53c55c62f8da8c77c75abc555d058
+SHA256: b30c03d843ca75e4b75fd5146a4ac1d80a3436ecd86f72aec4a19873f3f600fb
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: shell-cmds
+Version: 278-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 1040
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libpam2
+Conflicts: coreutils (<< 8.32-9)
+Provides: killall, which
+Filename: ./debs/shell-cmds_278-2_iphoneos-arm64e.deb
+Size: 135692
+MD5sum: f03ec59223787db14e7c1d3a1926b4b5
+SHA1: 33009aab5beecbc02659a35dabfbabe42e4c1a2b
+SHA256: 27cb21100690f9c5b7ea1203b11582184fd11269a45658c0dca1e202c66fd6af
+Section: Administration
+Priority: important
+Description: killall, renice, script, time, which, getopt, what, hexdump, su
+
+Package: shshd
+Version: 1.1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 88
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libdimentio0 (>= 99), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/shshd_1.1.1.1_iphoneos-arm64e.deb
+Size: 16104
+MD5sum: aca9f3b5f0441da7dc454589a8350155
+SHA1: 8b03be7e026b2603f693f4850794ad8dfecacd2b
+SHA256: 03519389b828d2ad7e235d17dbc9904fc07006e0f7f13b2c36eabc726a3030c8
+Section: Administration
+Priority: standard
+Description: SHSH blob saving daemon
+ After installing, this package will automatically save your blobs
+ to 1Conan's TSSSaver. The link to your specific blobs can be retrieved
+ by manually running `/usr/sbin/shshd` as root (sudo/su) and copying the output, or by
+ visiting "https://tsssaver.1conan.com/shsh/(your ecid in decimal form)".
+ .
+ This should be compatible with all devices using Procursus, including
+ A12+ devices, as it saves blobs with the entangled apnonce. Requires
+ you to set nonce generator before using.
+Author: Hayden Seay <me@diatr.us>
+
+Package: snaputil
+Version: 12.3
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 68
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), firmware (>= 10.3)
+Filename: ./debs/snaputil_12.3_iphoneos-arm64e.deb
+Size: 12238
+MD5sum: cb324172596ad8dd62faea7ad6e5dd5d
+SHA1: fd015b06459ab397edf91c06ae5d4a2e7e36915e
+SHA256: f2655556814c94eac4f8e97e412724f8189514a345c7a17b9f36c80fa8483799
+Section: System
+Homepage: https://github.com/ahl/apfs/
+Description: APFS Snapshot Tool.
+
+Package: sudo
+Version: 1.9.12p2
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 5492
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8, libpam2
+Filename: ./debs/sudo_1.9.12p2_iphoneos-arm64e.deb
+Size: 2664940
+MD5sum: ee7af15861af112d0375c56d30f26e24
+SHA1: e1345fecb037e6c7d069f8342f7f2f7b1e44acfb
+SHA256: 8e71d119b4235fe27d054bef24aadf228a0389fa4948ee4b24d2624ca7c25c8b
+Section: Administration
+Priority: required
+Description: temporarily assume root priviledges
+
+Package: system-cmds
+Version: 950-2
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 2876
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), file-cmds, libcrypt2, libpam2
+Recommends: vi
+Provides: login, passwd, reboot
+Filename: ./debs/system-cmds_950-2_iphoneos-arm64e.deb
+Size: 519522
+MD5sum: 5ded85810f9826e760cba901196a7a2b
+SHA1: 3557a19acc7bf8c48c55db9cae8d9d8dac01de0e
+SHA256: 99b26e3985e0c5ac2e5156bee1dae58b3bab4b642b9c517164c3f9e09e9370ed
+Section: Administration
+Priority: required
+Description: iostat, login, passwd, sync, sysctl, pw
+
+Package: tar
+Version: 1.34
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 2832
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libintl8
+Recommends: bzip2, gzip, xz-utils, zstd
+Filename: ./debs/tar_1.34_iphoneos-arm64e.deb
+Size: 1534908
+MD5sum: efee15e9bf1f0b9609dbb8e6fb3499b4
+SHA1: b5cd44ea0e1964f9703bfd07d4e1a5a9616f9a07
+SHA256: d7a66a7ca5e3a609640968b45a5f980b3cdf6a0bc94642dd0e1adb790bb97637
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives
+
+Package: uikittools
+Version: 2.1.8
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 772
+Depends: roothide (>= 0.1.0), libiosexec1 (>= 1.3.1-2)
+Suggests: uikittools-extra (= 2.1.8)
+Breaks: uikittools-extra (<< 2.1.6)
+Filename: ./debs/uikittools_2.1.8_iphoneos-arm64e.deb
+Size: 135458
+MD5sum: e4bed75ffebfd0a0a64ee112d174a10f
+SHA1: 067f96b3cf336d48dc8fbab922ddb66e4322d17f
+SHA256: 96235bb4f857a5867e6491aaf16ec6b063f1df33bb064080bcd83e61202a98aa
+Section: Utilities
+Priority: required
+Description: Command line access for UIKit/LaunchServices/CoreServices
+
+Package: unrar
+Version: 6.2.6
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 420
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: ./debs/unrar_6.2.6_iphoneos-arm64e.deb
+Size: 246988
+MD5sum: d4636650e0ef23bc3dd4184ab77ba956
+SHA1: 5cbe8c8524baf573fa7c7f9cce9f09420fcf018b
+SHA256: 6a4136668c83b23e3dddfc05048851486a0a5c0fd15887730de5f15385e8b17b
+Section: Archiving
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Version: 6.0-28
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 620
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: ./debs/unzip_6.0-28_iphoneos-arm64e.deb
+Size: 287492
+MD5sum: afcab508c5408b87e153189e122587b6
+SHA1: 5df69bd327a8e1e100beb896624938dc20b71282
+SHA256: 9278d20a2d19c2e2d8acbdad67a86c4a3e4b8d47198e5a61e7eebc108ef6c1e2
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+
+Package: vi
+Version: 070224
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 456
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6
+Provides: ex
+Filename: ./debs/vi_070224_iphoneos-arm64e.deb
+Size: 209052
+MD5sum: d32ff52b6eda6391bd9e89158fb46a0c
+SHA1: a3e8bae26f09f76b298ec9e41a39eec58cc84e61
+SHA256: db7944c6cdd79c66d2fda24d49f7a0dc9545a3a04904498d32296ff009e3c929
+Section: Text_Editors
+Priority: standard
+Description: The original ex/vi text editor
+
+Package: ws.dafei.newterm3
+Version: 3.1
+Architecture: iphoneos-arm64e
+Maintainer: DaFei HASHBANG Productions <support@hbang.ws>
+Installed-Size: 25940
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.dafei.newterm3_3.1_iphoneos-arm64e.deb
+Size: 11095058
+MD5sum: a2c1a033507e44a08f6477b5ef321b9f
+SHA1: c1e35983cb6a5dc75d9de8723ca17117c9453601
+SHA256: 3e734f1a6c6bb69cf2020d078faa71cfc2fac9e6439f4aca9d090c2dc7ecb421
+Section: Terminal Support
+Description: Powerful terminal app for iOS,在源码的基础上添加了，双指缩放，中文显示，多快捷键输入
+Tag: compatible_min::ios14.0
+Author: DaFei HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta(DaFei修改版)
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.alderis
+Version: 1.2.3-8+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/ws.hbang.alderis_1.2.3-8_2Bdebug_iphoneos-arm64e.deb
+Size: 1744870
+MD5sum: 99b0e45befbd45bd93fb952744de2275
+SHA1: 0ec9bccb6ff537952ab717297c9fcf16b0a284db
+SHA256: 508de5c0f6c59df3292280ac0ff35e5e04f38adb843e18251a1fbc94d6d70986
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Dev: hbang
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/ws.hbang.common_2.0-29_iphoneos-arm64e.deb
+Size: 783742
+MD5sum: 946812415f0441ff7508a7afbfdb0e40
+SHA1: 5189257cb0f9aaa75fa5aaa89b789d97a2b98044
+SHA256: 07fdc82966a4d7ff6dc5509727e6177dab33b1eee7cead749a978401af8eb59b
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: xz-utils
+Version: 5.4.1
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 888
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), liblzma5 (>= 5.4.1), libintl8
+Conflicts: xz (<< 1:0), lzma (<< 3:0)
+Replaces: xz, lzma
+Provides: xz (= 1:0), lzma (= 3:0)
+Filename: ./debs/xz-utils_5.4.1_iphoneos-arm64e.deb
+Size: 416770
+MD5sum: d07beabe08549cdcf2643775766fc978
+SHA1: b32fa04496383eb0fe1b428780d381126fd8fa86
+SHA256: b5cebc6c9ac92f856ea6da1d3deb31f187890c07e96240cc859da9ff8a4efa01
+Section: Archiving
+Priority: standard
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+
+Package: zip
+Version: 3.0-12
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 592
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1)
+Filename: ./debs/zip_3.0-12_iphoneos-arm64e.deb
+Size: 238992
+MD5sum: f7ac5df3f7e28f8822be4e38bb0afa54
+SHA1: 56823fe26226054c43b7fecdf2811ec5bb3a11cc
+SHA256: 86f85e696fe4d2bb4486ee7430b420ff78b606a06c987409ba32375c222390e4
+Section: Archiving
+Priority: important
+Multi-Arch: foreign
+Description: standard Windows compression tool
+
+Package: zsh
+Version: 5.9
+Architecture: iphoneos-arm64e
+Essential: yes
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 9736
+Pre-Depends: debianutils (>= 4.11.2)
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6, libpcre1, debianutils (>= 4.11.2)
+Filename: ./debs/zsh_5.9_iphoneos-arm64e.deb
+Size: 3495410
+MD5sum: 8da8473da18b0ea11c5d7f106dd1bda0
+SHA1: 8e574f5f1a4cce7e9a9b3f244cf1f0639f09c9d1
+SHA256: e8f452e00c1f338df1652910767538a64be632d8511f6116326c2a3cd17765a5
+Section: Terminal_Support
+Priority: required
+Description: a shell with interactive features
+
