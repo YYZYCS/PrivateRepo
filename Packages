@@ -1635,6 +1635,25 @@ Section: Keyrings
 Priority: optional
 Description: GnuPG keys for the Havoc repository
 
+Package: jp.r-plus.sleipnizer5.rootless
+Version: 12.0.1
+Architecture: iphoneos-arm64e
+Maintainer: r_plus
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 15.0)
+Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3, jp.r-plus.sleipnizer4
+Filename: ./debs/jp.r-plus.sleipnizer5.rootless_12.0.1_iphoneos-arm64e.deb
+Size: 267560
+MD5sum: ba7f015f4bc27afb7fd85e35d3d04261
+SHA1: be51c6ede179be24ec066721ceb6d1a1b937fa3a
+SHA256: 431b9e7ef6b59207aabd20a6b19783386e18331333649c5c326911311c71a413
+Section: Tweaks
+Description: Sleipnizer for Safari is a gesture plugin for Safari browser, which lets you perform various operations quickly with gestures. You may feel unfamiliar at first, but it becomes an excellent tool once you get used to it. Sleipnizer for Safari 是一款 Safari 浏览器手势插件，可以通过手势快速执行多种操作。刚开始或许有些不习惯，习惯手势操作后十分好用。
+Author: r_plus
+Icon: https://huayuarc.github.io/icon/Sleipnizer.png
+Name: Sleipnizer for Safari
+Sponsor: r_plus
+
 Package: launchctl
 Version: 1:1.2.0
 Architecture: iphoneos-arm64e
