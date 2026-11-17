@@ -774,6 +774,31 @@ Author: PoomSmart
 Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
 Name: 录像暂停 RecordPause
 
+Package: com.repos1tory.cloudflared
+Version: 2026.10.3-2
+Architecture: iphoneos-arm64e
+Maintainer: repos1tory
+Installed-Size: 38624
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Suggests: nodejs (>= 22.19.0)
+Filename: ./debs/cloudflared-ios_2026.10.3-2_iphoneos-arm64e.deb
+Size: 39850896
+MD5sum: 522b5f85f5d5de692b3753f8a34afdd3
+SHA1: 771e023e387f204d36647b9fb5c46f4e66793a1e
+SHA256: f45a390b7ccfe53ccf909082e1cd7000798a6b74f41e4c5b1646a8da0c9310e3
+Section: Networking
+Priority: optional
+Homepage: https://github.com/repos1tory/cloudflared-ios
+Description: Cloudflare Tunnel client for jailbroken iOS (arm64)
+ cloudflared as a native command-line tool for rootless jailbroken iOS
+ (palera1n rootless and Dopamine). Quick tunnels and named tunnels run
+ directly on the device; no Mac or companion server is required. Node.js is
+ optional and is only used by the quick-tunnel compatibility shim; the
+ native binary itself does not depend on npm or Node.
+Author: Cloudflare, Inc.; iOS port by repos1tory
+Name: cloudflared
+
 Package: com.roothide.lockdown
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -1643,10 +1668,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 15.0)
 Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3, jp.r-plus.sleipnizer4
 Filename: ./debs/jp.r-plus.sleipnizer5.rootless_12.0.1_iphoneos-arm64e.deb
-Size: 267560
-MD5sum: ba7f015f4bc27afb7fd85e35d3d04261
-SHA1: be51c6ede179be24ec066721ceb6d1a1b937fa3a
-SHA256: 431b9e7ef6b59207aabd20a6b19783386e18331333649c5c326911311c71a413
+Size: 267566
+MD5sum: be6427dd9d4c5afe6804176cccf5d00b
+SHA1: 4aed46e0bb80218d41a6a4e9e663bd7ecc42253f
+SHA256: d15d4ce955e5333eac4be2e11b0bf23d6b37722ed60092efb1a5c2474a013b97
 Section: Tweaks
 Description: Sleipnizer for Safari is a gesture plugin for Safari browser, which lets you perform various operations quickly with gestures. You may feel unfamiliar at first, but it becomes an excellent tool once you get used to it. Sleipnizer for Safari 是一款 Safari 浏览器手势插件，可以通过手势快速执行多种操作。刚开始或许有些不习惯，习惯手势操作后十分好用。
 Author: r_plus
